@@ -398,6 +398,7 @@ async def main():
                 await login(page)
                 await save_session(context)
 
+        # Scraping
         for name in company_names:
             try:
                 # Recherche automatique du slug
