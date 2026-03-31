@@ -17,7 +17,6 @@ try:
     _STEALTH_AVAILABLE = True
 except ImportError:
     _STEALTH_AVAILABLE = False
-    print("[WARN] playwright-stealth non installé → pip install playwright-stealth")
 
 
 # ─────────────────────────────────────────────
