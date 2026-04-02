@@ -1,4 +1,6 @@
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
+import warnings
+warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 from urllib.parse import urlparse
 
 from fetcher import fetch_page
@@ -11,9 +13,8 @@ from utils import clean_text, extract_meta
 
 def normalize_company_name(name: str) -> str:
     """
-    Nettoie un nom d'entreprise extrait d'un <title> ou d'une balise meta :
-    - Supprime les suffixes type "| Accueil", "- Site officiel"
-    - Rejette les noms génériques trop courts
+    Nettoie un nom d'entreprise extrait d'un <title> ou d'une balise meta.
+    Supprime les suffixes type "| Accueil", rejette les noms génériques.
     """
     if not name:
         return ""
@@ -24,7 +25,8 @@ def normalize_company_name(name: str) -> str:
             if parts:
                 name = parts[0]
                 break
-    generic_names = {"home", "welcome", "official site", "homepage", "website", "site", "blog", "news"}
+    generic_names = {"home", "welcome", "official site", "homepage",
+                     "website", "site", "blog", "news"}
     if len(name) < 3 or name.lower() in generic_names:
         return ""
     return name
@@ -37,22 +39,38 @@ def domain_to_company_name(domain: str) -> str:
     return " ".join(word.capitalize() for word in base.split())
 
 
+def _build_fallback_info(domain: str, description: str = "") -> dict:
+    """Construit les infos de base depuis le domaine quand le site est inaccessible."""
+    company_name = domain_to_company_name(domain)
+    aliases = {company_name, domain.split(".")[0], domain_to_company_name(domain)}
+    aliases = {clean_text(a) for a in aliases if a and len(a) >= 2}
+    return {
+        "company_name": company_name,
+        "domain": domain,
+        "aliases": list(aliases),
+        "description": description,
+    }
+
+
 def detect_company_info(company_url: str) -> dict:
     """
     Détecte automatiquement le nom, le domaine et la description
     d'une entreprise à partir de son URL.
 
-    Retourne :
-        {
-            "company_name": str,
-            "domain": str,
-            "aliases": list[str],
-            "description": str
-        }
+    Si la homepage est inaccessible (anti-bot, Cloudflare...),
+    utilise le domaine comme fallback et continue le pipeline
+    sans crasher — la découverte via paths hardcodés prendra le relais.
     """
-    html = fetch_page(company_url, use_dynamic_fallback=True)
-    soup = BeautifulSoup(html, "html.parser")
     domain = urlparse(company_url).netloc.replace("www.", "")
+
+    # Tentative de fetch de la homepage
+    try:
+        html = fetch_page(company_url, use_dynamic_fallback=True)   # Playwright pour sites JS
+    except Exception:
+
+        return _build_fallback_info(domain)
+
+    soup = BeautifulSoup(html, "html.parser")
 
     title     = clean_text(soup.title.get_text()) if soup.title else ""
     og_title  = extract_meta(soup, "property", "og:title")
@@ -71,7 +89,15 @@ def detect_company_info(company_url: str) -> dict:
         normalize_company_name(h1_text),
         domain_to_company_name(domain),
     ]
-    company_name = next((c for c in candidates if c), "")
+    company_name = next((c for c in candidates if c), domain_to_company_name(domain))
+
+    # Si le nom détecté ressemble à un slogan (trop long, pas de majuscule initiale seule)
+    # → utilise le domaine comme nom plus fiable
+    domain_name = domain_to_company_name(domain)
+    if (len(company_name.split()) > 4 or
+        company_name.lower() == company_name or
+        len(company_name) > 50):
+        company_name = domain_name
 
     aliases = {company_name, domain.split(".")[0], domain_to_company_name(domain)}
     aliases = {clean_text(a) for a in aliases if a and len(a) >= 2}

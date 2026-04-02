@@ -1,71 +1,90 @@
+"""
+discovery.py — Version simplifiée sans système de priorité.
+Logique : trouve les sections news/blog → extrait les liens → retourne MAX_DISCOVERY_URLS URLs.
+Le tri par date et la limite de 15 sont gérés dans main.py.
+"""
+
 import re
 import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, urljoin
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from config import (
     SITEMAP_PATHS, SITEMAP_CONTENT_KEYWORDS,
     NAV_KEYWORDS, HARDCODED_PATHS, BAD_PATH_PATTERNS,
-    MAX_PAGINATION_PAGES, MAX_DISCOVERY_URLS, MIN_ARTICLE_PATH_LENGTH
+    BAD_EXTENSIONS, MAX_PAGINATION_PAGES,
+    MAX_DISCOVERY_URLS, MIN_ARTICLE_PATH_LENGTH,
+    session
 )
 from fetcher import fetch_page, fetch_page_dynamic
-from utils import clean_text
+from utils import clean_text, get_browser_headers
 
 
 # ─────────────────────────────────────────────
-#  FILTRAGE D'URLS
+#  UTILITAIRES
 # ─────────────────────────────────────────────
 
-def is_excluded_url(url: str) -> bool:
-    """
-    Retourne True si l'URL ne peut pas être un article.
-    Vérifie : patterns explicites, chemin trop court, segment numérique seul.
-    """
+def _normalize_url(url: str) -> str:
     parsed = urlparse(url)
-    path   = parsed.path.lower().rstrip("/")
+    return f"{parsed.scheme}://{parsed.netloc}{parsed.path}".rstrip("/")
 
-    if not path or path == "/":
+
+def _has_bad_extension(path: str) -> bool:
+    ext = "." + path.rsplit(".", 1)[-1] if "." in path.split("/")[-1] else ""
+    return ext in BAD_EXTENSIONS
+
+
+def _is_same_domain(url: str, domain: str) -> bool:
+    netloc = urlparse(url).netloc
+    return domain in netloc or netloc.endswith("." + domain)
+
+
+def _is_news_section_url(url: str) -> bool:
+    """Retourne True si cette URL est une section news/blog."""
+    parsed    = urlparse(url)
+    subdomain = parsed.netloc.split(".")[0].lower()
+
+    # Sous-domaine blog.* / news.* / press.*
+    if subdomain in ["blog", "news", "press", "presse", "actualites",
+                     "media", "newsroom", "insights"]:
         return True
 
-    # Patterns explicites (config.py)
-    if any(p in path for p in BAD_PATH_PATTERNS):
-        return True
+    path     = parsed.path.lower().rstrip("/")
+    segments = [s for s in path.split("/") if s]
+    if not segments:
+        return False
 
-    # Chemin trop court = page de catégorie/service
-    if len(path) < MIN_ARTICLE_PATH_LENGTH:
-        return True
+    _KEYWORDS = [
+        "blog", "news", "newsroom", "actualite", "actualites",
+        "actualité", "actualités", "presse", "press", "articles",
+        "insights", "publications", "stories", "announcements",
+        "evenements", "événements", "events", "journal", "magazine",
+        "revue", "nouvelles", "communiques", "communiqués",
+        "noticias", "notícias", "akhbar",
+    ]
 
-    # Dernier segment purement numérique = pagination résiduelle
-    if path.split("/")[-1].isdigit():
-        return True
-
+    last = segments[-1]
+    for kw in _KEYWORDS:
+        if kw == last or last.startswith(kw) or last.endswith(kw):
+            return True
+    if len(segments) >= 2:
+        for kw in _KEYWORDS:
+            if kw == segments[-2]:
+                return True
     return False
 
 
-def _path_looks_like_article(path: str) -> bool:
-    """
-    Heuristique positive : est-ce que ce chemin ressemble à un slug d'article ?
-    - Contient un mot-clé de contenu (/blog/, /news/, /post/…)
-    - Contient une date /2024/ ou /2023/
-    - Dernier segment long avec tirets (titre d'article typique)
-    """
-    p = path.lower()
-
-    if any(kw in p for kw in SITEMAP_CONTENT_KEYWORDS):
-        return True
-
-    if re.search(r'/20\d{2}/', p):
-        return True
-
-    last = p.rstrip("/").split("/")[-1]
-    if len(last) >= 20 and last.count("-") >= 2:
-        return True
-
-    return False
+def _get_main_content_soup(html: str) -> BeautifulSoup:
+    """Supprime nav/header/footer pour ne garder que le contenu principal."""
+    soup = BeautifulSoup(html, "html.parser")
+    for tag in soup.find_all(["nav", "header", "footer"]):
+        tag.decompose()
+    return soup
 
 
 # ─────────────────────────────────────────────
-#  STRATÉGIE 1 : SITEMAP XML
+#  STRATÉGIE 1 : SITEMAP
 # ─────────────────────────────────────────────
 
 def _parse_sitemap_urls(xml_text: str, base_domain: str) -> list:
@@ -73,7 +92,6 @@ def _parse_sitemap_urls(xml_text: str, base_domain: str) -> list:
     try:
         root = ET.fromstring(xml_text)
         ns   = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
-
         for sitemap_tag in root.findall(".//sm:sitemap/sm:loc", ns):
             sub_url = sitemap_tag.text.strip()
             if any(kw in sub_url.lower() for kw in SITEMAP_CONTENT_KEYWORDS):
@@ -82,12 +100,10 @@ def _parse_sitemap_urls(xml_text: str, base_domain: str) -> list:
                     urls.extend(_parse_sitemap_urls(sub_xml, base_domain))
                 except Exception:
                     continue
-
         for url_tag in root.findall(".//sm:url/sm:loc", ns):
             u = url_tag.text.strip()
             if base_domain in u:
                 urls.append(u)
-
     except ET.ParseError:
         pass
     return urls
@@ -97,33 +113,34 @@ def discover_urls_via_sitemap(base_url: str, domain: str) -> list:
     parsed = urlparse(base_url)
     base   = f"{parsed.scheme}://{parsed.netloc}"
     found  = []
-
     for path in SITEMAP_PATHS:
         try:
             xml  = fetch_page(urljoin(base, path))
             urls = _parse_sitemap_urls(xml, domain)
             for u in urls:
                 p = urlparse(u).path.lower()
-                if any(kw in p for kw in SITEMAP_CONTENT_KEYWORDS) and not is_excluded_url(u):
+                if any(kw in p for kw in SITEMAP_CONTENT_KEYWORDS):
                     found.append(u)
-                if len(found) >= MAX_DISCOVERY_URLS:
-                    break
             if found:
-                print(f"[SITEMAP] {len(found)} URL(s) trouvée(s) via {path}")
+                print(f"[SITEMAP] {len(found)} URL(s)")
                 break
         except Exception:
             continue
-
     return list(set(found))
 
 
 # ─────────────────────────────────────────────
-#  STRATÉGIE 2 : NAVIGATION DU SITE
+#  STRATÉGIE 2 : NAVIGATION
 # ─────────────────────────────────────────────
 
 def discover_content_sections_from_nav(base_url: str, domain: str) -> list:
+    """
+    Analyse toute la page pour trouver les sections news/blog,
+    y compris les sous-sections dans les menus déroulants.
+    Détecte aussi les sous-domaines blog.*, news.*...
+    """
     try:
-        html = fetch_page(base_url, use_dynamic_fallback=True)
+        html = fetch_page(base_url, use_dynamic_fallback=True)   # Playwright pour sites JS
     except Exception:
         return []
 
@@ -132,199 +149,281 @@ def discover_content_sections_from_nav(base_url: str, domain: str) -> list:
     base         = f"{parsed_base.scheme}://{parsed_base.netloc}"
     section_urls = set()
 
-    for container in soup.find_all(["nav", "header", "footer"]):
-        for a in container.find_all("a", href=True):
-            full_url = urljoin(base, a["href"].strip())
-            if domain not in urlparse(full_url).netloc:
-                continue
-            text = clean_text(a.get_text()).lower()
-            path = urlparse(full_url).path.lower()
-            if any(kw in text or kw in path for kw in NAV_KEYWORDS):
-                section_urls.add(full_url)
+    for a in soup.find_all("a", href=True):
+        full_url = urljoin(base, a["href"].strip())
+        if not _is_same_domain(full_url, domain):
+            continue
+        text  = clean_text(a.get_text()).lower()
+        path  = urlparse(full_url).path.lower()
+        query = urlparse(full_url).query.lower()
+        if any(kw in text or kw in path or kw in query for kw in NAV_KEYWORDS):
+            section_urls.add(_normalize_url(full_url))
 
-    print(f"[NAV] {len(section_urls)} section(s) de contenu détectée(s)")
+    print(f"[NAV] {len(section_urls)} section(s) : {list(section_urls)}")
     return list(section_urls)
 
 
 # ─────────────────────────────────────────────
-#  STRATÉGIE 3 : PATHS HARDCODÉS
+#  STRATÉGIE 3 : PATHS HARDCODÉS (en parallèle)
 # ─────────────────────────────────────────────
 
 def discover_urls_via_hardcoded_paths(base_url: str, domain: str) -> list:
+    """Teste tous les paths hardcodés en parallèle (10 threads)."""
     parsed = urlparse(base_url)
     base   = f"{parsed.scheme}://{parsed.netloc}"
     found  = []
 
-    for path in HARDCODED_PATHS:
-        full_url = urljoin(base, path)
+    def _test(path):
+        full_url = _normalize_url(urljoin(base, path))
         try:
-            html = fetch_page(full_url)
-            if html and len(html) > 500:
-                found.append(full_url)
+            r = session.get(full_url, headers=get_browser_headers(),
+                           timeout=5, allow_redirects=True)
+            if r.status_code == 200 and len(r.text) > 500:
+                return full_url
         except Exception:
-            continue
+            pass
+        return None
 
-    print(f"[HARDCODED] {len(found)} page(s) trouvée(s)")
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        futures = {executor.submit(_test, p): p for p in HARDCODED_PATHS}
+        for future in as_completed(futures):
+            result = future.result()
+            if result:
+                found.append(result)
+
+    print(f"[HARDCODED] {len(found)} section(s)")
     return found
 
 
 # ─────────────────────────────────────────────
-#  PAGINATION
+#  EXTRACTION DE LIENS DEPUIS UNE SECTION NEWS
 # ─────────────────────────────────────────────
 
-PAGINATION_PATTERNS = [
-    lambda base, n: f"{base.rstrip('/')}/page/{n}/",
-    lambda base, n: f"{base.rstrip('/')}/page/{n}",
-    lambda base, n: f"{base}?page={n}",
-    lambda base, n: f"{base}?p={n}",
-    lambda base, n: f"{base}?offset={(n - 1) * 10}",
-]
-
-
-def paginate_listing_page(listing_url: str, domain: str,
-                          max_pages: int = MAX_PAGINATION_PAGES) -> list:
-    """Page 1 uniquement si MAX_PAGINATION_PAGES = 1."""
-    return [listing_url] if max_pages <= 1 else [listing_url]
-
-
-# ─────────────────────────────────────────────
-#  EXTRACTION DES LIENS D'ARTICLES
-# ─────────────────────────────────────────────
-
-def _looks_like_article_link(a_tag, listing_url: str) -> bool:
+def extract_links_from_section(page_url: str, domain: str) -> list:
     """
-    Vérifie si un <a> pointe vers un vrai article.
-    Priorité au chemin lui-même (heuristique _path_looks_like_article).
+    Extrait les liens depuis une section news/blog.
+    Supprime nav/header/footer → prend tout le reste.
+    Filtre minimal : même domaine, pas image/PDF, pas la section elle-même.
     """
-    href = a_tag.get("href", "")
-    if not href:
-        return False
-
-    full_url = urljoin(listing_url, href)
-    path     = urlparse(full_url).path.lower()
-
-    # ── Filtre 1 : le chemin doit ressembler à un article
-    if not _path_looks_like_article(path):
-        return False
-
-    # ── Filtre 2 : contexte DOM ou texte long
-    text = clean_text(a_tag.get_text(" ", strip=True))
-
-    parent = a_tag
-    for _ in range(5):
-        if parent is None:
-            break
-        classes  = " ".join(parent.get("class", [])).lower()
-        tag_name = (parent.name or "").lower()
-        if tag_name == "article":
-            return True
-        if any(kw in classes for kw in [
-            "post", "article", "news", "card", "item", "teaser",
-            "entry", "content", "story", "blog", "insight"
-        ]):
-            return True
-        parent = parent.parent
-
-    if len(text) >= 30:
-        return True
-    if len(clean_text(a_tag.get("title", ""))) >= 30:
-        return True
-
-    return False
-
-
-def extract_article_links_from_page(page_url: str, domain: str) -> list:
-    def _extract(html: str) -> set:
-        soup  = BeautifulSoup(html, "html.parser")
-        links = set()
+    def _extract(html: str) -> list:
+        soup  = _get_main_content_soup(html)
+        links = []
+        seen  = set()
         for a in soup.find_all("a", href=True):
-            full_url  = urljoin(page_url, a["href"].strip())
-            parsed    = urlparse(full_url)
-            if domain not in parsed.netloc:
+            full_url = urljoin(page_url, a["href"].strip())
+            if not _is_same_domain(full_url, domain):
                 continue
-            clean_url = f"{parsed.scheme}://{parsed.netloc}{parsed.path}".rstrip("/")
-            if is_excluded_url(clean_url):
+            clean_url = _normalize_url(full_url)
+            if clean_url in seen:
                 continue
-            if not _looks_like_article_link(a, page_url):
+            path = urlparse(full_url).path.lower().rstrip("/")
+            if not path or path == "/":
                 continue
-            links.add(clean_url)
-            if len(links) >= MAX_DISCOVERY_URLS:
-                break
+            if _has_bad_extension(path):
+                continue
+            if clean_url == _normalize_url(page_url):
+                continue
+            if "/wp-content/" in path or "/uploads/" in path:
+                continue
+            seen.add(clean_url)
+            links.append(clean_url)
         return links
 
-    links = set()
+    links = []
     try:
         links = _extract(fetch_page(page_url))
     except Exception:
         pass
 
+    # Fallback Playwright si peu de liens (site JS dynamique)
     if len(links) < 3:
         try:
             links = _extract(fetch_page_dynamic(page_url))
         except Exception:
             pass
 
-    return list(links)
+    return links
 
 
 # ─────────────────────────────────────────────
-#  ORCHESTRATEUR PRINCIPAL
+#  PAGINATION
+# ─────────────────────────────────────────────
+
+def paginate_listing_page(listing_url: str, domain: str,
+                          max_pages: int = MAX_PAGINATION_PAGES) -> list:
+    pages = [listing_url]
+    if max_pages <= 1:
+        return pages
+
+    try:
+        html     = fetch_page(listing_url)
+        soup     = BeautifulSoup(html, "html.parser")
+        next_url = None
+
+        for a in soup.find_all("a", href=True):
+            text = clean_text(a.get_text()).lower()
+            href = urljoin(listing_url, a["href"].strip())
+            if text in ["next", "›", "»", "suivant", "suivante", "2"]:
+                next_url = href
+                break
+            if re.search(r'[/=]2/?$', urlparse(href).path + "?" + urlparse(href).query):
+                next_url = href
+                break
+
+        if not next_url:
+            return pages
+
+        PATTERNS = [
+            lambda base, n: f"{base.rstrip('/')}/page/{n}/",
+            lambda base, n: f"{base.rstrip('/')}/page/{n}",
+            lambda base, n: f"{base}?page={n}",
+            lambda base, n: f"{base}?paged={n}",
+            lambda base, n: f"{base}?p={n}",
+        ]
+
+        candidate = None
+        for pattern in PATTERNS:
+            if _normalize_url(pattern(listing_url, 2)) == _normalize_url(next_url):
+                candidate = pattern
+                break
+
+        if candidate:
+            for n in range(2, max_pages + 1):
+                url = candidate(listing_url, n)
+                try:
+                    html = fetch_page(url)
+                    if not html or len(html) < 500:
+                        break
+                    pages.append(url)
+                except Exception:
+                    break
+        else:
+            current = next_url
+            for _ in range(max_pages - 1):
+                if current in pages:
+                    break
+                pages.append(current)
+                try:
+                    html = fetch_page(current)
+                    soup = BeautifulSoup(html, "html.parser")
+                    nxt  = None
+                    for a in soup.find_all("a", href=True):
+                        if clean_text(a.get_text()).lower() in ["next", "›", "»", "suivant"]:
+                            nxt = urljoin(current, a["href"])
+                            break
+                    if not nxt or nxt in pages:
+                        break
+                    current = nxt
+                except Exception:
+                    break
+
+    except Exception:
+        pass
+
+    return pages
+
+
+# ─────────────────────────────────────────────
+#  ORCHESTRATEUR PRINCIPAL — SIMPLIFIÉ
 # ─────────────────────────────────────────────
 
 def discover_all_article_urls(company_url: str, company_info: dict) -> list:
     """
-    Orchestre les 4 stratégies.
-
-    ⚠️  La homepage n'est PAS ajoutée comme page de listing par défaut —
-    elle contient des liens de navigation/marketplace qui polluent les résultats.
-    Elle n'est utilisée qu'en dernier recours si aucune section n'est trouvée.
+    Version simplifiée sans système de priorité.
+    1. Trouve toutes les sections news/blog du site
+    2. Extrait les liens de chaque section
+    3. Retourne jusqu'à MAX_DISCOVERY_URLS URLs uniques
     """
-    domain           = company_info["domain"]
-    all_article_urls = set()
-    listing_pages    = set()
+    domain      = company_info["domain"]
+    all_urls    = set()
+    all_sections = set()
 
-    print("\n[DÉCOUVERTE] Lancement des 4 stratégies...")
+    print("\n[DÉCOUVERTE] Lancement...")
 
-    # ── 1. Sitemap (source la plus fiable)
+    # ── 1. Sitemap → URLs directes d'articles
     sitemap_urls = discover_urls_via_sitemap(company_url, domain)
-    all_article_urls.update(sitemap_urls)
-    if len(all_article_urls) >= MAX_DISCOVERY_URLS:
-        print(f"[DÉCOUVERTE] Limite atteinte via sitemap")
-        return list(all_article_urls)[:MAX_DISCOVERY_URLS]
+    all_urls.update(sitemap_urls)
 
-    # ── 2. Navigation → sections blog/news
+    # ── 2. Sections via navigation
     nav_sections = discover_content_sections_from_nav(company_url, domain)
-    listing_pages.update(nav_sections)
+    all_sections.update(nav_sections)
 
-    # ── 3. Paths hardcodés
-    listing_pages.update(discover_urls_via_hardcoded_paths(company_url, domain))
+    # ── 3. Sections via paths hardcodés
+    hardcoded = discover_urls_via_hardcoded_paths(company_url, domain)
+    all_sections.update(hardcoded)
 
-    # ── Homepage uniquement si AUCUNE section trouvée
-    if not listing_pages:
-        print("[WARN] Aucune section de contenu trouvée — utilisation de la homepage")
-        listing_pages.add(company_url)
+    # ── Déduplication des sections par URL finale (après redirection)
+    seen_finals = set()
+    unique_sections = []
+    for s in all_sections:
+        try:
+            r = session.get(s, headers=get_browser_headers(),
+                           timeout=5, allow_redirects=True)
+            final = _normalize_url(r.url)
+            if final in seen_finals:
+                continue
+            seen_finals.add(final)
+        except Exception:
+            pass
+        if _normalize_url(s) not in seen_finals:
+            seen_finals.add(_normalize_url(s))
+        unique_sections.append(s)
 
-    # ── 4. Extraction des liens d'articles depuis chaque section
-    print(f"\n[PAGINATION] Analyse de {len(listing_pages)} section(s)...")
-    for section_url in listing_pages:
+    # Garde seulement les sections news
+    news_sections = [s for s in unique_sections if _is_news_section_url(s)]
+    other_sections = [s for s in unique_sections if not _is_news_section_url(s)]
+
+    print(f"[SECTIONS NEWS] {len(news_sections)} : {news_sections}")
+    print(f"[SECTIONS AUTRES] {len(other_sections)}")
+
+    # ── 4. Extraction des liens depuis les sections news
+    for section_url in news_sections:
         try:
             for page_url in paginate_listing_page(section_url, domain):
-                links = extract_article_links_from_page(page_url, domain)
-                all_article_urls.update(links)
-                if len(all_article_urls) >= MAX_DISCOVERY_URLS:
+                links = extract_links_from_section(page_url, domain)
+                all_urls.update(links)
+                print(f"  [NEWS] {section_url} → {len(links)} lien(s)")
+                if len(all_urls) >= MAX_DISCOVERY_URLS:
                     break
         except Exception as e:
             print(f"  [WARN] {section_url} : {e}")
-        if len(all_article_urls) >= MAX_DISCOVERY_URLS:
+        if len(all_urls) >= MAX_DISCOVERY_URLS:
             break
 
-    # ── Filtre final triple
-    filtered = {
-        u for u in all_article_urls
-        if not is_excluded_url(u)
-        and domain in urlparse(u).netloc
-        and _path_looks_like_article(urlparse(u).path.lower())
-    }
+    # ── 5. Si pas assez → sections génériques
+    if len(all_urls) < MAX_DISCOVERY_URLS:
+        for section_url in other_sections:
+            try:
+                links = extract_links_from_section(section_url, domain)
+                all_urls.update(links)
+            except Exception:
+                pass
 
-    print(f"\n[DÉCOUVERTE] {len(filtered)} URL(s) d'articles valides trouvées")
-    return list(filtered)
+    # ── 6. Si toujours rien → homepage en dernier recours
+    if not all_urls and not news_sections:
+        print("[INFO] Aucune section trouvée → homepage")
+        links = extract_links_from_section(company_url, domain)
+        all_urls.update(links)
+
+    # ── Filtre final : retire les sections elles-mêmes
+    section_norms = {_normalize_url(s) for s in all_sections}
+    filtered = [
+        u for u in all_urls
+        if _normalize_url(u) not in section_norms
+        and _is_same_domain(u, domain)
+        and not _has_bad_extension(urlparse(u).path.lower())
+        and urlparse(u).path.lower() not in ["/", ""]
+    ]
+
+    # Déduplique
+    seen = set()
+    result = []
+    for u in filtered:
+        n = _normalize_url(u)
+        if n not in seen:
+            seen.add(n)
+            result.append(u)
+
+    result = result[:MAX_DISCOVERY_URLS]
+    print(f"\n[DÉCOUVERTE] {len(result)} URL(s) trouvées")
+    return result

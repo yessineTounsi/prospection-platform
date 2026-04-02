@@ -1,17 +1,22 @@
 """
 main.py — Point d'entrée du scraper modulaire.
 
-Optimisations vitesse :
-  - Scraping parallèle via ThreadPoolExecutor (SCRAPER_THREADS)
-  - Timeout réduit à 10s par requête
-  - Délais réduits (0.2–0.5s au lieu de 1–2s)
-  - MAX_DISCOVERY_URLS = 15 (pas de marge inutile)
+Amélioration : logs détaillés montrant exactement pourquoi
+chaque article candidat est accepté, ignoré ou en erreur.
 """
 
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from config    import ARTICLE_LIMIT, DB_NAME, SCRAPER_THREADS
+# ── Import du cleaner depuis son dossier (Cleaning/)
+import importlib.util, os as _os
+
+_cleaner_path = _os.path.join(_os.path.dirname(__file__), '..', '..', 'Cleaning', 'cleaner.py')
+_spec         = importlib.util.spec_from_file_location("cleaner", _cleaner_path)
+_cleaner_mod  = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(_cleaner_mod)
+run_cleaning_pipeline = _cleaner_mod.run_cleaning_pipeline
 from company   import detect_company_info
 from gnews     import search_company_articles_gnews
 from discovery import discover_all_article_urls
@@ -28,19 +33,20 @@ from database  import init_db, save_company, save_articles_to_db
 
 def _scrape_one(article: dict, company_name: str) -> tuple:
     """
-    Scrape un article et retourne (result_dict | None, error_dict | None).
-    Conçu pour être appelé en parallèle depuis ThreadPoolExecutor.
+    Scrape un article.
+    Retourne (result | None, error | None, skip_reason | None)
     """
     url = article["url"]
     try:
         html = fetch_page(url)
 
         if not is_article_page(html, url):
-            return None, None  # ignoré silencieusement
+            return None, None, "pas un article"
 
         scraped = extract_article_content(url)
+
         if not scraped.get("texte_complet"):
-            return None, None
+            return None, None, "texte vide"
 
         scraped["relevance_score"] = get_relevance_score(
             company_name, scraped.get("titre", ""), scraped.get("texte_complet", "")
@@ -54,14 +60,14 @@ def _scrape_one(article: dict, company_name: str) -> tuple:
         scraped["date_rss"]    = article.get("date_rss", "")
         scraped["source_rss"]  = article.get("source_rss", "")
 
-        return scraped, None
+        return scraped, None, None
 
     except Exception as e:
         return None, {
             "url":       url,
             "titre_rss": article.get("titre_rss", ""),
             "erreur":    str(e),
-        }
+        }, None
 
 
 # ─────────────────────────────────────────────
@@ -69,20 +75,17 @@ def _scrape_one(article: dict, company_name: str) -> tuple:
 # ─────────────────────────────────────────────
 
 def run_pipeline(company_url: str, article_limit: int = ARTICLE_LIMIT):
-    """
-    Pipeline complet avec scraping parallèle.
-    """
     t_start = time.time()
 
     # ── Étape 1 : Détection de l'entreprise
     company_info = detect_company_info(company_url)
     company_name = company_info["company_name"]
-    print(f"\n[OK] Entreprise : {company_name}  (domaine : {company_info['domain']})")
+    print(f"\n[OK] Entreprise : {company_name}")
 
     # ── Étape 2 : Articles externes via GNews
     external_articles = []
     try:
-        external_articles = search_company_articles_gnews(company_info, max_results=50)
+        external_articles = search_company_articles_gnews(company_info)
         print(f"[GNEWS] {len(external_articles)} article(s) externe(s)")
     except Exception as e:
         print(f"[WARN] GNews : {e}")
@@ -100,12 +103,21 @@ def run_pipeline(company_url: str, article_limit: int = ARTICLE_LIMIT):
     ]
 
     all_candidates = external_articles + internal_articles
-    print(f"\n[PIPELINE] {len(all_candidates)} article(s) à scraper en parallèle ({SCRAPER_THREADS} threads)...")
+    total = len(all_candidates)
+    print(f"\n[PIPELINE] {total} URL(s) candidate(s) → scraping en parallèle ({SCRAPER_THREADS} threads)")
+    print(f"{'─' * 60}")
 
-    # ── Étape 4 : Scraping PARALLÈLE ✅
-    results = []
-    errors  = []
-    done    = 0
+    # ── Étape 4 : Scraping parallèle
+    results      = []
+    errors       = []
+    skipped      = []
+    done         = 0
+
+    # Compteurs détaillés
+    count_ok         = 0
+    count_not_article = 0
+    count_empty_text  = 0
+    count_error       = 0
 
     with ThreadPoolExecutor(max_workers=SCRAPER_THREADS) as executor:
         futures = {
@@ -115,32 +127,78 @@ def run_pipeline(company_url: str, article_limit: int = ARTICLE_LIMIT):
         for future in as_completed(futures):
             done += 1
             article = futures[future]
+            url     = article["url"]
+
             try:
-                result, error = future.result()
+                result, error, skip_reason = future.result()
+
                 if result:
                     results.append(result)
-                    print(f"  ✓ [{done}/{len(all_candidates)}] {article['url']}")
+                    count_ok += 1
+                    print(f"  ✓ [{done}/{total}] {url[:70]}")
+
+                    # ✅ Arrêt anticipé dès qu'on a assez d'articles
+                    if len(results) >= article_limit:
+                        print(f"  ✓ Limite de {article_limit} articles atteinte — arrêt anticipé")
+                        break
+
                 elif error:
                     errors.append(error)
-                    print(f"  ✗ [{done}/{len(all_candidates)}] {article['url']} — {error['erreur'][:60]}")
-                else:
-                    print(f"  — [{done}/{len(all_candidates)}] ignoré : {article['url']}")
-            except Exception as e:
-                errors.append({"url": article["url"], "erreur": str(e)})
+                    count_error += 1
+                    print(f"  ✗ [{done}/{total}] ERREUR  — {url[:60]}")
+                    print(f"       └ {error['erreur'][:80]}")
 
-    # ── Étape 5 : Déduplication + tri par date
-    results = deduplicate_articles(results)
+                elif skip_reason == "pas un article":
+                    count_not_article += 1
+                    skipped.append({"url": url, "raison": skip_reason})
+                    print(f"  — [{done}/{total}] IGNORÉ (pas un article) — {url[:60]}")
+
+                elif skip_reason == "texte vide":
+                    count_empty_text += 1
+                    skipped.append({"url": url, "raison": skip_reason})
+                    print(f"  — [{done}/{total}] IGNORÉ (texte vide)     — {url[:60]}")
+
+            except Exception as e:
+                errors.append({"url": url, "erreur": str(e)})
+                count_error += 1
+
+    # ── Étape 5 : Déduplication
+    before_dedup = len(results)
+    results      = deduplicate_articles(results)
+    count_dedup  = before_dedup - len(results)
+
+    # ── Étape 6 : Tri par date
     results = sorted(
         results,
         key=lambda x: x.get("date_publication") or x.get("date_rss") or "",
         reverse=True,
     )
 
+    # ── Étape 7 : Limite finale
+    before_limit = len(results)
     if article_limit:
         results = results[:article_limit]
+    count_limit = before_limit - len(results)
 
     elapsed = time.time() - t_start
-    print(f"\n[TEMPS] Pipeline terminé en {elapsed:.1f}s")
+
+    # ── Rapport détaillé
+    print(f"\n{'─' * 60}")
+    print(f"[RAPPORT] Pipeline terminé en {elapsed:.1f}s")
+    print(f"{'─' * 60}")
+    print(f"  Candidats total       : {total}")
+    print(f"  ✓ Scrapés avec succès : {count_ok}")
+    print(f"  — Ignorés (pas article): {count_not_article}")
+    print(f"  — Ignorés (texte vide) : {count_empty_text}")
+    print(f"  ✗ Erreurs             : {count_error}")
+    if count_dedup > 0:
+        print(f"  ~ Doublons supprimés  : {count_dedup}")
+    if count_limit > 0:
+        print(f"  ↓ Coupés par limite   : {count_limit} (limite={article_limit})")
+    print(f"{'─' * 60}")
+    print(f"  ➜ RÉSULTAT FINAL      : {len(results)} article(s)")
+    print(f"{'─' * 60}")
+
     return results, errors
 
 
@@ -166,14 +224,20 @@ if __name__ == "__main__":
         save_errors_to_json(errors)
         save_articles_to_csv(articles)
 
-        print(f"\n{'─' * 50}")
-        print(f"[RÉSULTAT] {len(articles)} article(s), {len(errors)} erreur(s)")
-        print("[FICHIERS]")
-        print("  - articles_only_result.json")
-        print("  - articles_only_result.csv")
-        print("  - errors_result.json")
+        print(f"\n[FICHIERS]")
+        print(f"  - articles_only_result.json  ({len(articles)} articles)")
+        print(f"  - articles_only_result.csv")
+        print(f"  - errors_result.json         ({len(errors)} erreurs)")
         print(f"  - {DB_NAME}")
-        print(f"{'─' * 50}")
+
+        # ── Nettoyage automatique pour NLP
+        print(f"\n[CLEANER] Nettoyage automatique des résultats...")
+        run_cleaning_pipeline(
+            input_path   = "articles_only_result.json",
+            output_json  = "articles_cleaned.json",
+            output_csv   = "articles_cleaned.csv",
+            company_name = company_info.get("company_name", ""),
+        )
 
     except Exception as e:
         print(f"\n[ERREUR FATALE] {e}")
