@@ -1,5 +1,6 @@
 # display.py — Affichage terminal et sauvegarde JSON / CSV
 
+import os
 import re
 import json
 import csv
@@ -83,11 +84,14 @@ def afficher_resultats(entreprise: dict, score: dict, resume: dict, commentaires
 
 # ─── Sauvegarde JSON + CSV ─────────────────────────────────────────────────────
 
+
+FICHIER_RESULTATS = "resultat_avis.json"
+
+
 def save_results(entreprise: dict, score: dict, resume: dict, commentaires: list):
-    slug = re.sub(r"[^\w]", "_", entreprise["slug"].strip("/"))
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
-    resultats = {
+    nouvelle_entree = {
         "entreprise":   entreprise,
         "scraped_at":   timestamp,
         "score":        score,
@@ -95,17 +99,21 @@ def save_results(entreprise: dict, score: dict, resume: dict, commentaires: list
         "commentaires": commentaires,
     }
 
-    json_file = f"trustpilot_{slug}_{timestamp}.json"
-    csv_file  = f"trustpilot_{slug}_{timestamp}.csv"
+    # Lire le fichier existant s il existe, sinon partir d une liste vide
+    historique = []
+    if os.path.exists(FICHIER_RESULTATS):
+        try:
+            with open(FICHIER_RESULTATS, "r", encoding="utf-8") as f:
+                historique = json.load(f)
+            if not isinstance(historique, list):
+                historique = [historique]
+        except (json.JSONDecodeError, IOError):
+            historique = []
 
-    with open(json_file, "w", encoding="utf-8") as f:
-        json.dump(resultats, f, ensure_ascii=False, indent=2)
+    # Ajouter la nouvelle entree et reecrire
+    historique.append(nouvelle_entree)
 
-    if commentaires:
-        with open(csv_file, "w", newline="", encoding="utf-8") as f:
-            writer = csv.DictWriter(f, fieldnames=commentaires[0].keys())
-            writer.writeheader()
-            writer.writerows(commentaires)
+    with open(FICHIER_RESULTATS, "w", encoding="utf-8") as f:
+        json.dump(historique, f, ensure_ascii=False, indent=2)
 
-    print(f"\n  💾  JSON → {json_file}")
-    print(f"  💾  CSV  → {csv_file}")
+    print(f"\n  💾  Résultat ajouté dans {FICHIER_RESULTATS}  ({len(historique)} scraping(s) au total)")
