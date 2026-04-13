@@ -1,0 +1,1710 @@
+{
+  "file": "www_biat_com_tn.md",
+  "base_url": "https://www.biat.com.tn",
+  "total_links": 104,
+  "rejected": 4,
+  "candidates": 100,
+  "results": [
+    {
+      "url": "https://www.biat.com.tn",
+      "text": "Aller au contenu principal",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/nous-contacter",
+      "text": "CONTACTEZ-NOUS",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/nos-agences",
+      "text": "Trouvez une agence",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/biat-la-une/actualites",
+      "text": "Actualités",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/biat-la-une/communiques-de-presse",
+      "text": "Communiqués de Presse",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/la-biat",
+      "text": "Découvrez la BIAT",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/la-biat/presentation-generale",
+      "text": "Présentation générale",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/la-biat/histoire",
+      "text": "Histoire",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/actionnariat",
+      "text": "Actionnariat",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/responsabilite-societale",
+      "text": "Responsabilité sociétale",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/responsabilite-societale/banque-engagee",
+      "text": "Banque engagée",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/responsabilite-societale/mecenat-culturel",
+      "text": "Mécénat culturel",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/responsabilite-societale/sponsoring-sportif",
+      "text": "Sponsoring sportif",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/fondation-biat",
+      "text": "Fondation",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/communication-financiere/chiffres-cles",
+      "text": "Communication financière",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/communication-financiere/rapports-annuels",
+      "text": "Rapports annuels",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/communication-financiere/etats-financiers",
+      "text": "États financiers",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/communication-financiere/indicateurs-dactivite",
+      "text": "Indicateurs d’activité",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/communication-financiere/lettre-lactionnaire",
+      "text": "Lettre à l’actionnaire",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/recherches-et-analyses",
+      "text": "Recherches et analyses",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/recherches-et-analyses/tunisian-bond-index",
+      "text": "Tunisian Bond Index",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/la-biat/le-mot-du-president",
+      "text": "Le mot du Président",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/la-biat/le-mot-du-directeur-general",
+      "text": "Le mot du Directeur Général",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/la-biat/les-filiales",
+      "text": "Les filiales",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/la-banque-de-detail",
+      "text": "Les métiers",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/la-banque-de-financement-et-dinvestissement",
+      "text": "La banque de financement et d'investissement",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/le-conseil-dadministration",
+      "text": "Gouvernance et conformité",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/la-biat-gouvernance-et-conformite/membres-du-conseil-dadministration",
+      "text": "Les membres du conseil d'administration",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/les-comites-du-conseil-dadministration",
+      "text": "Les comités du conseil d'administration",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/la-direction-generale",
+      "text": "La direction générale",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/conformite-et-lutte-anti-blanchiment",
+      "text": "Conformité et lutte anti-blanchiment",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/la-biat/actionnariat",
+      "text": "Actionnariat",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/la-biat/ressources-humaines",
+      "text": "Ressources humaines",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/fondation-biat/fondation-biat-pour-la-jeunesse",
+      "text": "Fondation BIAT",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/fondation-biat/actualites-de-la-fondation",
+      "text": "Actualités de la fondation",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/communication-financiere/recompenses-bancaires",
+      "text": "Récompenses bancaires",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/biat-la-une/media-room",
+      "text": "Média Room",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://oumourielmaliya.biat.com.tn",
+      "text": "En savoir plus",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/sites/default/files/2026-03/biat_comm.webp",
+      "text": "biat_comm",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://societe-communautaire.biat.com.tn",
+      "text": "En savoir plus",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/sites/default/files/2026-03/biat_recom.webp",
+      "text": "biat_recom",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/biat-la-une/press-media/la-biat-distinguee-par-cinq-prestigieuses-recompenses-internationales-en",
+      "text": "En savoir plus",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/sites/default/files/2026-03/securite-bancaire-biat-img.webp",
+      "text": "securite-bancaire-biat-img",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/biat-la-une/actualites/securite-bancaire-adoptez-les-bons-reflexes",
+      "text": "En savoir plus",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/biat-la-une/press-media/communique-de-presse-la-biat-lance-sa-nouvelle-solution-digitale-mybiat",
+      "text": "En savoir plus",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/biat-la-une/actualites/handisport-soutenons-leurs-ambitions",
+      "text": "En savoir plus",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/biat-la-une/actualites?filter_theme=54",
+      "text": "Evénement",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/biat-la-une/actualites?filter_theme=48",
+      "text": "Fondation BIAT",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/biat-la-une/actualites?filter_theme=1",
+      "text": "Partenariat",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/biat-la-une/actualites?filter_theme=10",
+      "text": "Responsabilité sociétale",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/sites/default/files/styles/thumb740x470/public/2026-02/image%20%2810%29.jpg?itok=7YCzszAE",
+      "text": "![MyBIAT élue Produit de l’Année 2026",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/biat-la-une/actualites/mybiat-elue-produit-de-lannee-2026",
+      "text": "MyBIAT élue Produit de l’Année 2026",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/sites/default/files/styles/thumb740x470/public/2026-02/DSC00608.jpg?itok=e31f17zT",
+      "text": "![signature",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/biat-la-une/press-media/la-biat-et-la-bad-scellent-un-partenariat-strategique-au-service-du",
+      "text": "La BIAT et la BAD scellent un partenariat stratégique au service du développement des entreprises tunisiennes à l’international",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/sites/default/files/styles/thumb740x470/public/2026-02/DSC00002%20v2_0.jpg?itok=JBafo6LP",
+      "text": "![table",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/biat-la-une/press-media/centrale-photovoltaique-kairouan-la-biat-pilote-un-financement-syndique-de",
+      "text": "Centrale photovoltaïque à Kairouan : la BIAT pilote un financement syndiqué de 140 millions de dinars pour la réalisation du projet GFR Kairouan",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/sites/default/files/styles/thumb740x470/public/2026-03/communique-logoBIAT%20%281%29.jpg?itok=q5gQQZhc",
+      "text": "![communique-logoBIAT \\(1\\).jpg",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/biat-la-une/press-media/publication-des-indicateurs-dactivite-trimestriels-de-la-biat-au-31-0",
+      "text": "Publication des indicateurs d’activité trimestriels de la BIAT au 31 décembre 2025",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/sites/default/files/styles/thumb740x470/public/2026-03/photos_jazz.jpg?itok=k9B3y8UH",
+      "text": "![photo_jazz",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/biat-la-une/actualites/la-biat-soutient-le-trilateral-jazz-residency-performance",
+      "text": "La BIAT soutient le Trilateral Jazz Residency & Performance",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/sites/default/files/styles/thumb740x470/public/2026-03/La%20BIAT%20prim%C3%A9e%20pour%20la%20qualit%C3%A9%20de%20son%20service.webp?itok=hkNwQO1L",
+      "text": "![La BIAT primée pour la qualité de son service",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/biat-la-une/press-media/la-biat-primee-pour-la-qualite-de-son-service",
+      "text": "La BIAT primée pour la qualité de son service",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/sites/default/files/styles/thumb740x470/public/2025-12/biat_commun.jpg?itok=c_HpEpL6",
+      "text": "![La BIAT renforce son soutien aux sociétés communautaires avec le lancement d'une plateforme numérique dédiée",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/biat-la-une/press-media/la-biat-renforce-son-soutien-aux-societes-communautaires-avec-le-lancement",
+      "text": "La BIAT renforce son soutien aux sociétés communautaires avec le lancement d'une plateforme numérique dédiée",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/sites/default/files/styles/thumb740x470/public/2025-12/biat-img.jpg?itok=ry_flbEg",
+      "text": "![La BIAT distinguée par cinq prestigieuses récompenses internationales en 2025",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/sites/default/files/styles/thumb740x470/public/2025-11/biat-1.jpg?itok=Rt4_-sgX",
+      "text": "![La BIAT organise ses rencontres annuelles",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/biat-la-une/actualites/la-biat-organise-ses-rencontres-annuelles-en-lhonneur-des-entreprises-sousse",
+      "text": "La BIAT organise ses rencontres annuelles en l’honneur des entreprises à Sousse et à Sfax et réaffirme son engagement en matière d’innovation et de proximité",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/sites/default/files/styles/thumb740x470/public/2025-10/Logo-couverture%20%281%29_1.jpg?itok=Tj16uKzI",
+      "text": "![Publication des indicateurs d’activité trimestriels de la BIAT au 30 septembre 2025",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/biat-la-une/press-media/publication-des-indicateurs-dactivite-trimestriels-de-la-biat-au-30-0",
+      "text": "Publication des indicateurs d’activité trimestriels de la BIAT au 30 septembre 2025",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/sites/default/files/styles/thumb740x470/public/2025-10/biat_article.jpg?itok=_4vgY7UR",
+      "text": "![La BIAT s’associe à BYD - Build Your Dreams - pour promouvoir la mobilité durable en Tunisie",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/biat-la-une/actualites/la-biat-sassocie-byd-build-your-dreams-pour-promouvoir-la-mobilite-durable",
+      "text": "La BIAT s’associe à BYD - Build Your Dreams - pour promouvoir la mobilité durable en Tunisie",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/sites/default/files/styles/thumb740x470/public/2025-10/balon_biat.jpg?itok=gkJ_SDeN",
+      "text": "![La BIAT, partenaire du Festival International de Montgolfières",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/biat-la-une/actualites/la-biat-partenaire-du-festival-international-de-montgolfieres",
+      "text": "La BIAT, partenaire du Festival International de Montgolfières",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/sites/default/files/styles/thumb740x470/public/2025-10/biat_assu.jpg?itok=TEHsCdht",
+      "text": "![Assurances BIAT partenaire de l’Ultra Mirage El Djérid 2025 : performance et solidarité au cœur du désert tunisien",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/biat-la-une/actualites/assurances-biat-partenaire-de-lultra-mirage-el-djerid-2025-performance-et",
+      "text": "Assurances BIAT partenaire de l’Ultra Mirage El Djérid 2025 : performance et solidarité au cœur du désert tunisien",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/sites/default/files/styles/thumb740x470/public/2025-10/biat_flexy.jpg?itok=8kmN_xy_",
+      "text": "![La BIAT lance sa nouvelle carte de paiement fractionné BIATFLEXY",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/biat-la-une/press-media/la-biat-lance-sa-nouvelle-carte-de-paiement-fractionne-biatflexy",
+      "text": "La BIAT lance sa nouvelle carte de paiement fractionné BIATFLEXY",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/sites/default/files/styles/thumb740x470/public/2025-09/communique-logoBIAT%20%281%29.jpg?itok=lRkSrvkv",
+      "text": "![Communiqué financier  Publication des indicateurs d’activité trimestriels de la BIAT au 30 juin 2025",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/biat-la-une/press-media/publication-des-etats-financiers-de-la-biat-au-30-juin-2025",
+      "text": "Publication des états financiers de la BIAT au 30 juin 2025",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/sites/default/files/styles/thumb740x470/public/2025-09/la_biat.jpg?itok=MGLvZDth",
+      "text": "![La BIAT, partenaire engagé de vos défis",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/biat-la-une/actualites/la-biat-partenaire-engage-de-vos-defis",
+      "text": "La BIAT, partenaire engagé de vos défis",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/sites/default/files/styles/thumb740x470/public/2025-08/securite_bank_cov.jpg?itok=U1jV7yPO",
+      "text": "![Sécurité bancaire : adoptez les bons réflexes",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/sites/default/files/styles/thumb740x470/public/2025-07/communique-logoBIAT.jpg?itok=Jr5Hz-Nl",
+      "text": "![Communiqué financier  Publication des indicateurs d’activité trimestriels de la BIAT au 30 juin 2025",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/biat-la-une/press-media/communique-financier-publication-des-indicateurs-dactivite-trimestriels-2",
+      "text": "Communiqué financier Publication des indicateurs d’activité trimestriels de la BIAT au 30 juin 2025",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/sites/default/files/styles/thumb740x470/public/2025-07/engagement_athletes_handisport.jpg?itok=jsNAKppH",
+      "text": "![La BIAT renouvelle son engagement aux côtés des athlètes handisport",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/biat-la-une/actualites/la-biat-renouvelle-son-engagement-aux-cotes-des-athletes-handisport",
+      "text": "La BIAT renouvelle son engagement aux côtés des athlètes handisport",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/sites/default/files/styles/thumb740x470/public/2025-07/diaspora_tunisienne.jpg?itok=Hy3SuVlr",
+      "text": "![La BIAT renforce davantage ses liens avec la diaspora tunisienne",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/biat-la-une/press-media/la-biat-renforce-davantage-ses-liens-avec-la-diaspora-tunisienne",
+      "text": "La BIAT renforce davantage ses liens avec la diaspora tunisienne",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/biat-la-une/actualites?theme=10",
+      "text": "Responsabilité sociétale",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/sites/default/files/styles/thumb740x470/public/2026-03/RSE_actu.webp?itok=oFpYBTPN",
+      "text": "![RSE_actu",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/biat-la-une/actualites/la-biat-soutient-la-6eme-edition-du-sommet-international-desertifactions",
+      "text": "La BIAT soutient la 6ème édition du sommet international Désertif’Actions",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/sites/default/files/styles/thumb740x470/public/2025-05/caravane_promotion_finance_digitale_inclusive.jpg?itok=Pz_GjsGC",
+      "text": "![La BIAT, partenaire de la Caravane de la Promotion de la Finance Digitale Inclusive",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/biat-la-une/actualites/la-biat-partenaire-de-la-caravane-de-la-promotion-de-la-finance-digitale",
+      "text": "La BIAT, partenaire de la Caravane de la Promotion de la Finance Digitale Inclusive",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/sites/default/files/2026-03/banner_finnance.webp",
+      "text": "",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "http://www.biat.com.tn/temoignage",
+      "text": "Tous nos témoignages",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://societe-communautaire.biat.com.tn/step1",
+      "text": "Sociétés communautaires : financement",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "http://www.biat.com.tn/newsletter",
+      "text": "S'inscrire à la Newsletter",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/la-biat/nos-metiers",
+      "text": "Nos métiers",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/la-biat/gouvernance-et-conformite",
+      "text": "Gouvernance et conformité",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    },
+    {
+      "url": "https://www.biat.com.tn/mediateur-bancaire",
+      "text": "Médiateur bancaire",
+      "type": "team",
+      "confidence": 0.264,
+      "is_relevant": false,
+      "all_scores": {
+        "about": 0.2328,
+        "team": 0.264,
+        "services": 0.2634,
+        "contact": 0.2179,
+        "clients": 0.2178,
+        "technology": 0.1718,
+        "news": 0.1915,
+        "irrelevant": 0.2641
+      }
+    }
+  ],
+  "by_type": {}
+}

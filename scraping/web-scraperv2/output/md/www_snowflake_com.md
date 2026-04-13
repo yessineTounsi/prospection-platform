@@ -1,0 +1,378 @@
+[Skip to content](https://www.snowflake.com/en/#responsive-grid-main-content)
+Data for Breakfast EMEA
+Making AI Real for Business
+[register now](https://www.snowflake.com/en/data-for-breakfast/?tags=region%2Femea)
+[](https://www.snowflake.com/content/snowflake-site/global/en/)[](https://www.snowflake.com/content/snowflake-site/global/en/)
+Product
+Solutions
+Why Snowflake
+Resources
+Developers
+[Pricing](https://www.snowflake.com/en/pricing-options/)
+[ The Snowflake Platform Develop AI products, apps and more on a fully managed platform that securely connects businesses globally — across any type or scale of data. ](https://www.snowflake.com/en/product/platform/)
+[ Snowflake IntelligenceNOW GA All your knowledge. One trusted enterprise agent. ](https://www.snowflake.com/en/product/snowflake-intelligence/)
+[Analytics](https://www.snowflake.com/en/product/analytics/)
+[AI](https://www.snowflake.com/en/product/ai/)
+[Data Engineering](https://www.snowflake.com/en/product/data-engineering/)
+[Applications & Collaboration](https://www.snowflake.com/en/product/applications-and-collaboration/)
+Featured Capabilities
+[ Cortex CodeNew Snowflake-native AI coding agent  ](https://www.snowflake.com/en/product/features/cortex-code/)
+[ Openflow Effortless data movement for integrations ](https://www.snowflake.com/en/product/features/openflow/)
+[ Cortex AI Instant access to industry-leading LLMs ](https://www.snowflake.com/en/product/features/cortex/)
+[ Data Clean Rooms Privacy-preserving data collaboration ](https://www.snowflake.com/en/product/features/data-clean-rooms/)
+[ Native Apps End-to-end, Snowflake-native app creation and distribution ](https://www.snowflake.com/en/product/features/native-apps/)
+[ Horizon Catalog Universal AI catalog ](https://www.snowflake.com/en/product/features/horizon/)
+[ Marketplace Third-party data sources connected within minutes ](https://www.snowflake.com/en/product/features/marketplace/)
+[ Notebooks Interactive dev environment for data and AI teams ](https://www.snowflake.com/en/product/features/notebooks/)
+[ Snowflake ML Streamlined model development and MLOps from a centralized UI ](https://www.snowflake.com/en/product/features/end-to-end-ml-workflows/)
+[ Snowpark Libraries and code execution environments that run Python and more ](https://www.snowflake.com/en/product/features/snowpark/)
+[ Streamlit Framework for transforming Python scripts into web apps ](https://www.snowflake.com/en/product/features/streamlit-in-snowflake/)
+[ Unistore Unify transactional and analytical workloads in Snowflake for enhanced simplicity ](https://www.snowflake.com/en/product/features/unistore/)
+Featured Open Source Technologies
+[ PostgresNow GA Fully compatible open source Postgres running on Snowflake ](https://www.snowflake.com/en/product/features/postgres/)
+[ Arctic LLM An open, efficient LLM for enterprise AI apps ](https://www.snowflake.com/en/product/features/arctic/)
+INDUSTRIES
+[Advertising, Media & Entertainment](https://www.snowflake.com/en/solutions/industries/advertising-media-entertainment/)
+[Financial Services](https://www.snowflake.com/en/solutions/industries/financial-services/)
+[Healthcare & Life Sciences](https://www.snowflake.com/en/solutions/industries/healthcare-and-life-sciences/)
+[Manufacturing](https://www.snowflake.com/en/solutions/industries/manufacturing/)
+[Public Sector](https://www.snowflake.com/en/solutions/industries/public-sector/)
+[Retail & Consumer Goods](https://www.snowflake.com/en/solutions/industries/retail-consumer-goods/)
+[Technology](https://www.snowflake.com/en/solutions/industries/technology/)
+[Telecom](https://www.snowflake.com/en/solutions/industries/telecom/)
+[Travel & Hospitality](https://www.snowflake.com/en/solutions/industries/travel-hospitality/)
+[All Industries](https://www.snowflake.com/en/solutions/industries/)
+DEPARTMENTS
+[Finance](https://www.snowflake.com/en/solutions/departments/finance/)
+[IT](https://www.snowflake.com/en/solutions/departments/information-technology/)
+[Marketing](https://www.snowflake.com/en/solutions/departments/marketing/)
+Enablement Solutions
+[![Cloud icon](https://www.snowflake.com/content/experience-fragments/snowflake-site/language-masters/en/site/mega-nav-header/master/_jcr_content/root/mega_header/nav_mega/nav_dropdown_menu_2/nav_column_container/nav_column_833417450/nav_item_copy_107772/icon.coreimg.svg/1723828484100/nav-icon-cloud.svg) Migrate to the AI Data Cloud Confident migration to a unified platform ](https://www.snowflake.com/en/migrate-to-the-cloud/)
+[![Migrate icon](https://www.snowflake.com/content/experience-fragments/snowflake-site/language-masters/en/site/mega-nav-header/master/_jcr_content/root/mega_header/nav_mega/nav_dropdown_menu_2/nav_column_container/nav_column_833417450/nav_item_copy_copy/icon.coreimg.svg/1768354429188/nav-icon--migrate.svg) Services Delivery Snowflake experts to help you accelerate and achieve business goals ](https://www.snowflake.com/en/solutions/services-delivery/)
+PARTNER SOLUTIONS
+[![Partner Network icon](https://www.snowflake.com/content/experience-fragments/snowflake-site/language-masters/en/site/mega-nav-header/master/_jcr_content/root/mega_header/nav_mega/nav_dropdown_menu_2/nav_column_container/nav_column_copy_copy/nav_item/icon.coreimg.svg/1723828498700/nav-icon--partner-network.svg) Snowflake Partner Network Programs with product, solutions and cloud partners ](https://www.snowflake.com/en/why-snowflake/partners/)
+[![Partner Finder icon](https://www.snowflake.com/content/experience-fragments/snowflake-site/language-masters/en/site/mega-nav-header/master/_jcr_content/root/mega_header/nav_mega/nav_dropdown_menu_2/nav_column_container/nav_column_copy_copy/nav_item_copy/icon.coreimg.svg/1726173927645/nav-icon--partner-finder.svg) Partner Finder Partners, apps and solutions for enhanced deployment ](https://www.snowflake.com/en/why-snowflake/partners/all-partners/)
+[![Calendar icon](https://www.snowflake.com/content/experience-fragments/snowflake-site/language-masters/en/site/mega-nav-header/master/_jcr_content/root/mega_header/nav_mega/nav_dropdown_menu_2/nav_column_container/nav_column_copy_copy/nav_item_copy_1970515619/icon.coreimg.svg/1726173935655/nav-icon--events.svg) Event Partnership Opportunities Live and virtual events ](https://www.snowflake.com/en/why-snowflake/partners/event-partnership-opportunities/)
+[ Why Snowflake Collaborate locally and globally to reveal new insights, create previously unforeseen business opportunities, and identify your customers with seamless experiences. ](https://www.snowflake.com/en/why-snowflake/)
+[![Customer icon](https://www.snowflake.com/content/experience-fragments/snowflake-site/language-masters/en/site/mega-nav-header/master/_jcr_content/root/mega_header/nav_mega/item_1719963657751_c/nav_column_container/nav_column_copy_copy/nav_item/icon.coreimg.svg/1739839279367/nav-icon--partner-network.svg) Customers Case studies and videos showcasing how global organizations use Snowflake ](https://www.snowflake.com/en/customers/)
+[![Cloud icon](https://www.snowflake.com/content/experience-fragments/snowflake-site/language-masters/en/site/mega-nav-header/master/_jcr_content/root/mega_header/nav_mega/item_1719963657751_c/nav_column_container/nav_column_copy_copy/nav_item_258535199/icon.coreimg.svg/1739840490955/nav-icon-cloud.svg) The AI Data Cloud Explained Learn how to connect, share and integrate the data and apps on the AI Data Cloud ](https://www.snowflake.com/en/why-snowflake/what-is-data-cloud/)
+[![User with security lock icon](https://www.snowflake.com/content/experience-fragments/snowflake-site/language-masters/en/site/mega-nav-header/master/_jcr_content/root/mega_header/nav_mega/item_1719963657751_c/nav_column_container/nav_column_copy_copy/nav_item_copy_185565/icon.coreimg.svg/1758909528089/user-security-admins-ciso-icon.svg) Security Hub Comprehensive security through built-in features, robust cloud infrastructure protection, and more ](https://www.snowflake.com/en/why-snowflake/snowflake-security-hub/)
+[![Cost Optimization icon](https://www.snowflake.com/content/experience-fragments/snowflake-site/language-masters/en/site/mega-nav-header/master/_jcr_content/root/mega_header/nav_mega/item_1719963657751_c/nav_column_container/nav_column_copy_copy/nav_item_copy/icon.coreimg.svg/1758909542267/nav-icon-cost-optimization-performance.svg) Cost and Performance Optimization Maximize economic value through minimizing TCO and continuously optimizing price for performance ](https://www.snowflake.com/en/pricing-options/cost-and-performance-optimization/)
+[![Launch](https://www.snowflake.com/content/experience-fragments/snowflake-site/language-masters/en/site/mega-nav-header/master/_jcr_content/root/mega_header/nav_mega/item_1719963657751_c/nav_column_container/nav_column_copy_copy/nav_item_copy_185565_903555964/icon.coreimg.svg/1758732224323/launch.svg) Snowflake for Startups Startups building applications in the AI Data Cloud ](https://www.snowflake.com/en/why-snowflake/startup-program/)
+Connect
+[Blog](https://www.snowflake.com/en/blog/)
+[Events](https://www.snowflake.com/en/events/)
+[Support](https://www.snowflake.com/en/support/)
+[Contact us](https://www.snowflake.com/en/contact/)
+Learn
+[![Notebooks icon](https://www.snowflake.com/content/experience-fragments/snowflake-site/language-masters/en/site/mega-nav-header/master/_jcr_content/root/mega_header/nav_mega/item_1719961362824/nav_column_container/nav_column_44600420__826130542/nav_item_copy/icon.coreimg.svg/1736877128196/nav-icon--notebooks.svg) Resource Library Ebooks, videos, white papers and more ](https://www.snowflake.com/en/resources/)
+[![Training icon](https://www.snowflake.com/content/experience-fragments/snowflake-site/language-masters/en/site/mega-nav-header/master/_jcr_content/root/mega_header/nav_mega/item_1719961362824/nav_column_container/nav_column_44600420__826130542/nav_item/icon.coreimg.svg/1722382755809/nav-icon--training.svg) Training Overview of Snowflake's educational offerings ](https://www.snowflake.com/en/resources/learn/training/)
+[![Webinars icon](https://www.snowflake.com/content/experience-fragments/snowflake-site/language-masters/en/site/mega-nav-header/master/_jcr_content/root/mega_header/nav_mega/item_1719961362824/nav_column_container/nav_column_44600420__826130542/nav_item_copy_144634_1984107859/icon.coreimg.svg/1759424691990/nav-icon--webinars.svg) Webinars Expert-led discussions and demos across industries and use cases ](https://www.snowflake.com/en/webinars/)
+[![Certification icon](https://www.snowflake.com/content/experience-fragments/snowflake-site/language-masters/en/site/mega-nav-header/master/_jcr_content/root/mega_header/nav_mega/item_1719961362824/nav_column_container/nav_column_44600420__826130542/nav_item_copy_1438098918/icon.coreimg.svg/1722382780833/nav-icon--cert.svg) Certifications Snowflake's technical industry professional certifications ](https://www.snowflake.com/en/resources/learn/certifications/)
+[![Live Demo icon](https://www.snowflake.com/content/experience-fragments/snowflake-site/language-masters/en/site/mega-nav-header/master/_jcr_content/root/mega_header/nav_mega/item_1719961362824/nav_column_container/nav_column_44600420__826130542/nav_item_copy_143809/icon.coreimg.svg/1759424359543/nav-icon--live-demo.svg) Live Demos Weekly product demos showcasing key features and live Q&A  ](https://www.snowflake.com/en/webinars/demo/)
+[![Education icon](https://www.snowflake.com/content/experience-fragments/snowflake-site/language-masters/en/site/mega-nav-header/master/_jcr_content/root/mega_header/nav_mega/item_1719961362824/nav_column_container/nav_column_44600420__826130542/nav_item_copy_333890638/icon.coreimg.svg/1722382769808/nav-icon--education.svg) Snowflake University Training courses for all levels, on-demand or instructor-led ](https://learn.snowflake.com/en/)
+[![Hands-on Labs icon](https://www.snowflake.com/content/experience-fragments/snowflake-site/language-masters/en/site/mega-nav-header/master/_jcr_content/root/mega_header/nav_mega/item_1719961362824/nav_column_container/nav_column_44600420__826130542/nav_item_copy_189945/icon.coreimg.svg/1759388182903/nav-icon--labs.svg) Hands-On Labs Instructor-led virtual workshops for exploring key Snowflake features ](https://www.snowflake.com/en/webinars/virtual-hands-on-lab/)
+[![Copy](https://www.snowflake.com/content/experience-fragments/snowflake-site/language-masters/en/site/mega-nav-header/master/_jcr_content/root/mega_header/nav_mega/item_1719961362824/nav_column_container/nav_column_44600420__826130542/nav_item_copy_333890/icon.coreimg.svg/1756326371387/copy.svg) Snowflake Research Publications Academic papers written by Snowflake researchers ](https://www.snowflake.com/en/resources/publications/)
+[![Document with list](https://www.snowflake.com/content/experience-fragments/snowflake-site/language-masters/en/site/mega-nav-header/master/_jcr_content/root/mega_header/nav_mega/item_1719961362824/nav_column_container/nav_column_44600420__826130542/nav_item_copy_333890_930852828/icon.coreimg.svg/1756853637155/data-sheet.svg) Fundamentals Informative articles about AI and data topics ](https://www.snowflake.com/en/fundamentals/)
+Build
+[![Developers icon](https://www.snowflake.com/content/experience-fragments/snowflake-site/language-masters/en/site/mega-nav-header/master/_jcr_content/root/mega_header/nav_mega/item_1719963657751/nav_column_container/nav_column_copy_copy/nav_item/icon.coreimg.svg/1731362494574/nav-icon--devs.svg) Snowflake for Developers Overview of the dev resources you need to build and scale ](https://www.snowflake.com/en/developers/)
+[![Solution Center icon](https://www.snowflake.com/content/experience-fragments/snowflake-site/language-masters/en/site/mega-nav-header/master/_jcr_content/root/mega_header/nav_mega/item_1719963657751/nav_column_container/nav_column_copy_copy/nav_item_copy_1855651246/icon.coreimg.svg/1761677891705/nav-icon--solution-center.svg) Developer Guides Reference architectures, use cases and best practices ](https://www.snowflake.com/en/developers/guides/)
+[![Download icon](https://www.snowflake.com/content/experience-fragments/snowflake-site/language-masters/en/site/mega-nav-header/master/_jcr_content/root/mega_header/nav_mega/item_1719963657751/nav_column_container/nav_column_copy_copy/nav_item_copy/icon.coreimg.svg/1731362660050/nav-icon-download.svg) Downloads The latest software versions, drivers, libraries and relevant docs ](https://www.snowflake.com/en/developers/downloads/)
+Learn
+[![Docs icon](https://www.snowflake.com/content/experience-fragments/snowflake-site/language-masters/en/site/mega-nav-header/master/_jcr_content/root/mega_header/nav_mega/item_1719963657751/nav_column_container/nav_column_copy_copy_1367930678/nav_item/icon.coreimg.svg/1731361950527/nav-icon--docs.svg) Documentation Reference docs, guides, tutorials and announcements ](https://docs.snowflake.com/)
+[![Open Source icon](https://www.snowflake.com/content/experience-fragments/snowflake-site/language-masters/en/site/mega-nav-header/master/_jcr_content/root/mega_header/nav_mega/item_1719963657751/nav_column_container/nav_column_copy_copy_1367930678/nav_item_copy/icon.coreimg.svg/1731365437016/nav-icon-open-source.svg) Open Source Key projects Snowflake engineers maintain and support ](https://www.snowflake.com/en/developers/open-source/)
+[![Northstar logo](https://www.snowflake.com/content/experience-fragments/snowflake-site/language-masters/en/site/mega-nav-header/master/_jcr_content/root/mega_header/nav_mega/item_1719963657751/nav_column_container/nav_column_copy_copy_1367930678/nav_item_copy_copy/icon.coreimg.svg/1731362475640/nav-icon--northstar.svg) Builder Education Online and in-person classes and workshops to upskill on Snowflake ](https://www.snowflake.com/en/developers/northstar/)
+Connect
+[![Developers icon](https://www.snowflake.com/content/experience-fragments/snowflake-site/language-masters/en/site/mega-nav-header/master/_jcr_content/root/mega_header/nav_mega/item_1719963657751/nav_column_container/nav_column_copy_copy_1101894776/nav_item/icon.coreimg.svg/1757101368571/nav-icon--developer-center.svg) Engineering Blog Snowflake’s technical leaders on what, why and how they build features ](https://www.snowflake.com/engineering-blog/)
+[![Partner Network icon](https://www.snowflake.com/content/experience-fragments/snowflake-site/language-masters/en/site/mega-nav-header/master/_jcr_content/root/mega_header/nav_mega/item_1719963657751/nav_column_container/nav_column_copy_copy_1101894776/nav_item_copy_1855651246/icon.coreimg.svg/1731362644348/nav-icon--partner-network.svg) Community Tips, tricks and discussion with fellow Snowflake developers ](https://community.snowflake.com/)
+Language
+Languages
+[Português](https://www.snowflake.com/pt_br/)[Italiano](https://www.snowflake.com/it/)[한국어](https://www.snowflake.com/ko/)[日本語](https://www.snowflake.com/ja/)[Español](https://www.snowflake.com/es/)[Deutsch](https://www.snowflake.com/de/)[Français](https://www.snowflake.com/fr/)[English](https://www.snowflake.com/en/)
+[Sign in](https://app.snowflake.com/)
+[contact sales](https://www.snowflake.com/en/contact-sales/)
+[start for free](https://signup.snowflake.com/)
+THE AI DATA CLOUD
+#  All Your Knowledge. One trusted enterprise agent.
+Turn enterprise data into instant insights with Snowflake Intelligence.
+[learn more about snowflake intelligence](https://www.snowflake.com/en/product/snowflake-intelligence/)
+[Read the announcement blog](https://www.snowflake.com/en/blog/snowflake-intelligence-enterprise-ai/)
+[![snowflake summit 26](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--69dc91aa-8a22-4b79-a9c0-74f31ea690ca/1000x630-summit-26-promo-card.png?preferwebp=true&quality=85)](https://www.snowflake.com/en/summit/)
+###### JUNE 1-4, 2026
+#### Experience the Future of Enterprise Data at Summit 26
+Join fellow data and AI leaders at Snowflake Summit 26 in San Francisco to lead your organization in this next era of agents and enterprise intelligence. 
+[register now](https://www.snowflake.com/en/summit/)
+PLATFORM
+##  Simplify Enterprise Data and AI
+From ingesting and processing data to analyzing and modeling it, to building and sharing data and AI applications, Snowflake helps you innovate faster and do more with your data.
+[why snowflake](https://www.snowflake.com/en/why-snowflake/)
+[View Pricing](https://www.snowflake.com/en/pricing-options/)
+![Screenshot of a Snowflake Dashboard showcasing Cortex Agents ](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--c4b6e371-0bd4-42f6-a0fa-9d46b0e49754/homepage-detail.png?preferwebp=true&quality=85)
+![Easy icon](https://www.snowflake.com/content/snowflake-site/global/en/_jcr_content/root/responsivegrid/container_copy_copy/container/flexible_column_cont_653257856/flexible_column_content_container_1/container/image.coreimg.svg/1753196257736/icon-easy.svg)
+##### EASY
+#### Bring your data and AI strategies to life
+Save time on building, configuring and tuning infrastructure with an easy, fully managed platform that’s integrated across data types and clouds.
+![Connected icon](https://www.snowflake.com/content/snowflake-site/global/en/_jcr_content/root/responsivegrid/container_copy_copy/container/flexible_column_cont_653257856/flexible_column_content_container_2/container_copy/image_copy.coreimg.svg/1765412797549/icon-connected.svg)
+##### CONNECTED
+#### Connect your business ecosystem
+Snowflake’s rich ecosystem and interoperability with open table formats means you can maximize value from all your data, apps and models. 
+![Trusted icon](https://www.snowflake.com/content/snowflake-site/global/en/_jcr_content/root/responsivegrid/container_copy_copy/container/flexible_column_cont_653257856/flexible_column_content_container_3/container_copy/image_copy.coreimg.svg/1753196403587/icon-trusted.svg)
+##### TRUSTED
+#### Achieve universal business continuity
+Support your most demanding workloads with always-on, unified security, governance, observability and disaster recovery, regardless of cloud or region. 
+###### SNOWFLAKE POSTGRES IS NOW GA
+#### Run production-ready Postgres alongside your analytics
+Snowflake Postgres brings the world’s most popular database to the AI Data Cloud — no complex data pipelines needed.
+[explore the solution](https://www.snowflake.com/en/product/features/postgres/)
+THE AI DATA CLOUD
+##  Streamline your architecture. Smash data silos. 
+[![Data Engineering Workload Icon](https://www.snowflake.com/content/experience-fragments/snowflake-site/language-masters/en/site/diagrams/interactive-platform-diagram/platform-si-full/_jcr_content/root/container_copy/container/card_v2/image.coreimg.svg/1753194717714/data-engineering.svg) Data Engineering Build reliable, continuous data pipelines for the enterprise in the language of your choice. Learn more ](https://www.snowflake.com/en/product/data-engineering/)
+[![Analytics icon](https://www.snowflake.com/content/experience-fragments/snowflake-site/language-masters/en/site/diagrams/interactive-platform-diagram/platform-si-full/_jcr_content/root/container_copy/container/card_v2_copy/image.coreimg.svg/1753194735648/analytics.svg) Analytics Do data analytics faster with optimal pricing and near-zero maintenance. Learn more ](https://www.snowflake.com/en/product/analytics/)
+[![AI icon](https://www.snowflake.com/content/experience-fragments/snowflake-site/language-masters/en/site/diagrams/interactive-platform-diagram/platform-si-full/_jcr_content/root/container_copy/container/card_v2_copy_1374594736/image.coreimg.svg/1762260923827/ai-product-category.svg) AI Securely create and deploy LLMs and ML models customized with your data. Learn more ](https://www.snowflake.com/en/product/ai/)
+[![Applications and collaboration icon](https://www.snowflake.com/content/experience-fragments/snowflake-site/language-masters/en/site/diagrams/interactive-platform-diagram/platform-si-full/_jcr_content/root/container_copy/container/card_v2_copy_1357431212/image.coreimg.svg/1753194773242/applications-and-collaboration.svg) Applications & Collaboration Share live data across clouds and organizations, plus easily develop, distribute and scale apps. Learn more ](https://www.snowflake.com/en/product/applications-and-collaboration/)
+  * Fully Managed
+  * Cross-Cloud
+  * Interoperable
+  * Secure
+  * Governed
+
+
+### The AI Data Cloud
+The Snowflake platform is a fully managed service that’s truly easy to use, connected across your entire data estate and trusted by thousands of customers.
+[explore the platform](https://www.snowflake.com/en/product/platform/)
+![](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--4300869a-1c46-4495-940a-1681e4b74dfd/data-cloud-cropped.png?preferwebp=true&quality=85)
+### Snowflake Intelligence
+Empower every user to answer complex questions in natural language with their own personalized enterprise intelligence agent.
+[explore the solution](https://www.snowflake.com/en/product/snowflake-intelligence/)
+![](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--3cb3d6c1-bfe4-4983-a524-b3b7768fa1b0/si-tile-image.png?preferwebp=true&quality=85)
+![Honeywell logo](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--824c0b42-1149-4089-ae91-1cf81be0fda7/honeywell.png?preferwebp=true&quality=85)
+![HelloFresh logo](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--3b3f3698-b32d-4c8e-a25b-2e36e1c4d2a2/hellofresh-logo.png?preferwebp=true&quality=85)
+![Siemens logo](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--fd6b2219-7f1c-4e9a-9c0d-33c420002867/siemens%25403x.png?preferwebp=true&quality=85)
+![Honeywell logo](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--824c0b42-1149-4089-ae91-1cf81be0fda7/honeywell.png?preferwebp=true&quality=85)
+![HelloFresh logo](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--3b3f3698-b32d-4c8e-a25b-2e36e1c4d2a2/hellofresh-logo.png?preferwebp=true&quality=85)
+![OpenAI Logo](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--5d8bcebf-2e12-4fe1-9469-8fab0f4deb3b/openai%25403x.png?preferwebp=true&quality=85)
+![Jet2 ogo](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--668fc1ee-25d2-49b6-a9cc-cf526ad23f4d/jet2-logo.png?preferwebp=true&quality=85)
+![accor logo](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--16f0e8b0-9f8c-44a8-af77-0a45032bd033/accor%25403x.png?preferwebp=true&quality=85)
+![OpenAI Logo](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--5d8bcebf-2e12-4fe1-9469-8fab0f4deb3b/openai%25403x.png?preferwebp=true&quality=85)
+![Jet2 ogo](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--668fc1ee-25d2-49b6-a9cc-cf526ad23f4d/jet2-logo.png?preferwebp=true&quality=85)
+![Siemens Energy Logo](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--6fa48776-179a-48ea-bcb0-2f7e5e63df12/siemens-energy.png?preferwebp=true&quality=85)
+![Zurich logo](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--57941364-ed40-4bd1-9e59-06fbfe48ee96/zurich.png?preferwebp=true&quality=85)
+![Siemens Energy Logo](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--6fa48776-179a-48ea-bcb0-2f7e5e63df12/siemens-energy.png?preferwebp=true&quality=85)
+![Zurich logo](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--57941364-ed40-4bd1-9e59-06fbfe48ee96/zurich.png?preferwebp=true&quality=85)
+![Pfizer logo](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--4d55b0e5-eff9-4f94-ad9c-8418820a9621/pfizer-logo.png?preferwebp=true&quality=85)
+![AstraZeneca logo](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--6dc76f39-185e-463c-9cba-7840984bea2e/astrazeneca-logo.png?preferwebp=true&quality=85)
+![Roche logo](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--c96a0ae9-6c98-4a93-a560-bf10a0c0258f/roche.png?preferwebp=true&quality=85)
+![Pfizer logo](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--4d55b0e5-eff9-4f94-ad9c-8418820a9621/pfizer-logo.png?preferwebp=true&quality=85)
+![AstraZeneca logo](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--6dc76f39-185e-463c-9cba-7840984bea2e/astrazeneca-logo.png?preferwebp=true&quality=85)
+CUSTOMERS
+##  Leading companies lead with Snowflake.
+[view customers](https://www.snowflake.com/en/customers/)
+Flix
+Accor
+HelloFresh
+Vodafone Ziggo
+![flix logo](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--da998c2c-f7b5-47ca-92cc-ed1c1993be7a/flix.png?preferwebp=true&quality=85)
+[Automotive](https://www.snowflake.com/en/solutions/industries/manufacturing/automotive/)
+Flix Eradicates Data Silos with a Snowflake-Powered Data Mesh Architecture
+Learn how Snowflake’s seamless scalability and data sharing helped Flix plan the perfect data transformation journey — with cost savings up to 30%.
+  * **< 30%** Lower costs upon migration
+  * **40%+** Growth in number of annual users
+
+
+[Read the case study](https://www.snowflake.com/en/customers/all-customers/case-study/flix/)
+[Read the case study](https://www.snowflake.com/en/customers/all-customers/case-study/pfizer/)
+![bus driver](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--34d62c0b-defd-4cc4-a9b3-ef6ed5061518/flix-mobility.png?preferwebp=true&quality=85)
+![accor logo](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--476b9e5c-80f2-4a0a-8df8-cee585f7b172/accor-transparent.png?preferwebp=true&quality=85)
+[Travel & Hospitality](https://www.snowflake.com/en/solutions/industries/travel-hospitality/)
+Accor Develops a Customer Data Platform For More Effective Marketing Campaigns
+With Snowflake and Hightouch, leading global hospitality group Accor, develops a customer data platform to maximize campaign performance, optimize marketing budgets and offer ultra-personalized customer experiences.
+  * **12 months to launch CDP after initial testing**
+  * **85% faster data pulls for marketing requests**
+
+
+[Read the customer story](https://www.snowflake.com/en/customers/all-customers/case-study/accor/)
+[Read the case study](https://www.snowflake.com/en/customers/all-customers/case-study/aviva/)
+![Pfizer logo](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--c07338b8-80ae-42e3-b25a-43562cf4fc14/zurich-hero.png?preferwebp=true&quality=85)
+![Siemens Energy logo](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--3b3f3698-b32d-4c8e-a25b-2e36e1c4d2a2/hellofresh-logo.png?preferwebp=true&quality=85)
+[Retail & Consumer Goods](https://www.snowflake.com/en/solutions/industries/retail-consumer-goods/)
+HelloFresh Makes Meal-Planning Easy with Insights from Snowflake’s AI Data Cloud
+The meal delivery service relies on real-time data to inform strategy, enhance operational efficiency and gain granular customer insights
+  * **30%** lower costs
+  * **99.9%** system availability
+
+
+[Read the story](https://www.snowflake.com/en/customers/all-customers/case-study/hellofresh/)
+[Read the case study](https://www.snowflake.com/en/customers/all-customers/case-study/pfizer/)
+![Pfizer logo](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--1bb8738e-1a31-4938-a109-f63e8cd400ef/parameta-solutions-hero.png?preferwebp=true&quality=85)
+![Vodafone Ziggo](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--abdd910e-fadb-49f5-b6a9-d98540930376/vodafone-ziggo-logo-nav.png?preferwebp=true&quality=85)
+[Telecom](https://www.snowflake.com/en/solutions/industries/telecom/)
+VodafoneZiggo Cuts Costs by 50% and Gains Real-Time Insights with Snowflake
+VodafoneZiggo migrated to Snowflake and AWS, cutting costs by 50% and improving data refresh rates to over 96%, enabling real-time insights and better customer interactions.
+  * **50%** reduction in data infrastructure
+  * **96%** data timeliness improved
+
+
+[Read the case study](https://www.snowflake.com/en/customers/all-customers/video/vodafone-ziggo/)
+[Read the case study](https://www.snowflake.com/en/customers/all-customers/case-study/pfizer/)
+![ ](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--023f9492-d92a-4524-9e40-5a75b7127206/siksin-hero-asset-copy.png?preferwebp=true&quality=85)
+Prev
+Next
+Amplify Impact
+##  The SnowflakeEcosystem
+![Snowflake partner logos](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--68d8eec2-8af4-4ec6-800e-42f2d0a98d75/ai-ml-partners.jpg?preferwebp=true&quality=85)
+#### Snowflake Partner Network
+From integrated technologies to migration experts, maximize your Snowflake deployment, with one of our partners, apps or solutions.
+[Learn about partners](https://www.snowflake.com/en/why-snowflake/partners/)
+![Developers community](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--9f5b3f75-6caa-4081-8c34-4988de9b54b6/snowflake-community.png?preferwebp=true&quality=85)
+#### Developer Community
+Find reference architecture, level up your Snowflake skill set or see what open source Snowflake supports.
+[Visit the developers center](https://www.snowflake.com/en/developers/)
+Resources and News
+##  The Latest from Snowflake 
+Featured
+News
+Events
+Webinars
+[![Data engineer sitting in front of a computer](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--12d10100-e791-4ce0-9094-d5b3d7cd9fa3/600x378-build24-hp-featured-card.png?preferwebp=true&quality=85) Virtual Event BUILD GLOBAL | November 4-7, 2025 Register now ](https://www.snowflake.com/en/build/?utm_cta=website-homepage-featured-build)
+[![Cover of "practical guide for AI agents"](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--81e7e3dd-44dc-47d3-93e8-c00d6728bddc/guide-ai-agents.png?preferwebp=true&quality=85) Ebook A Practical Guide to AI Agents Download Now ](https://www.snowflake.com/resource/a-practical-guide-to-ai-agents/?utm_cta=website-featured-content-practical-guide-to-ai-agents)
+[![Unlock Faster ROI with Snowflake Webinar](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--1d4aa25e-0abd-493f-a63d-a489ecfc93b3/image-mit-redefining-data-engineering-16x9.png?preferwebp=true&quality=85) Report Redefining Data Engineering in the Age of AI Read now ](https://www.snowflake.com/en/redefining-data-engineering-in-the-age-of-ai/?utm_cta=website-featured-content-mittr-redefining-data-engineering-age-of-ai)
+[![](https://www.snowflake.com/content/snowflake-site/global/en/news/press-releases/snowflake-appoints-jonathan-beaulier-as-chief-revenue-officer/_jcr_content/_cq_featuredimage.coreimg.png/1774967291510/og-social-snowflake-newsroom.png) Press Release Snowflake Appoints Jonathan Beaulier as Chief Revenue Officer Read More ](https://www.snowflake.com/en/news/press-releases/snowflake-appoints-jonathan-beaulier-as-chief-revenue-officer/)[![](https://www.snowflake.com/content/snowflake-site/global/en/news/press-releases/snowflake-appoints-michel-nader-to-lead-meta-region-advancing-regional-ai-ambitions/_jcr_content/_cq_featuredimage.coreimg.png/1774889709745/og-social-snowflake-newsroom.png) Press Release Snowflake appoints Michel Nader to lead META region, advancing regional AI ambitions Read More ](https://www.snowflake.com/en/news/press-releases/snowflake-appoints-michel-nader-to-lead-meta-region-advancing-regional-ai-ambitions/)[![SnowWork PR image](https://www.snowflake.com/content/snowflake-site/global/en/news/press-releases/snowflake-launches-project-snowwork-bringing-outcome-driven-ai-to-every-business-user/_jcr_content/_cq_featuredimage.coreimg.png/1773793666156/project-snowwork.png) Press Release Snowflake Launches Project SnowWork, Bringing Outcome-Driven AI to Every Business User Read More ](https://www.snowflake.com/en/news/press-releases/snowflake-launches-project-snowwork-bringing-outcome-driven-ai-to-every-business-user/)
+[![Data Engineer](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--ce362a6a-80a4-44a5-9c09-618462964fa5/web-snowflake-connect-ai-960x540.png?preferwebp=true&quality=85) Unlock the Full Potential of Your Data with AI February 26, 2026 Virtual ](https://www.snowflake.com/events/snowflake-connect-ai-emea/?utm_cta=website-featured-events-snowflake-connect-ai-emea)
+[![Dev Day](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--12d10100-e791-4ce0-9094-d5b3d7cd9fa3/600x378-build24-hp-featured-card.png?preferwebp=true&quality=85) BUILD GLOBAL | The Dev Conference for AI & Apps On-Demand Virtual ](https://www.snowflake.com/en/build/)
+[![snowflake summit 2026 cover image](https://www.snowflake.com/adobe/dynamicmedia/deliver/dm-aid--69dc91aa-8a22-4b79-a9c0-74f31ea690ca/1000x630-summit-26-promo-card.png?preferwebp=true&quality=85) Snowflake Summit 26 June 1-4 San Francisco ](https://www.snowflake.com/en/summit/)
+##  Where Data Does More
+  * 30-day free trial
+  * No credit card required
+  * Cancel anytime 
+
+
+[start for free](https://signup.snowflake.com/)
+[watch a demo](https://www.snowflake.com/en/webinars/demo/)
+**Subscribe to our monthly newsletter**
+Stay up to date on Snowflake’s latest products, expert insights and resources—right in your inbox!
+*
+*
+*
+Country United States Canada United Kingdom Germany France Australia Japan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory Brunei Darussalam Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Congo The Democratic Republic of The Cook Islands Costa Rica Cote D'Ivoire (Ivory Coast) Croatia (Hrvatska) Cyprus Czech Republic Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Falkland Islands (Malvinas) Faroe Islands Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guinea Guinea-Bissau Guyana Haiti Heard and McDonald Islands Holy See (Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iraq Ireland Isle of Man Israel Italy Jamaica Japan Jordan Kazakhstan Kenya Kiribati Korea Republic of (South) Kuwait Kyrgyzstan Lao People's Democratic Republic Latvia Lebanon Lesotho Liberia Liechtenstein Lithuania Luxembourg Macau Macedonia Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Micronesia Federated States of Moldova Republic of Monaco Mongolia Montenegro Montserrat Morocco Mozambique Namibia Nauru Nepal Netherlands Netherlands Antilles New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island Northern Mariana Islands Norway Oman Pakistan Palau Palestinian Territory Occupied Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Reunion Romania Russian Federation Saint Helena Saint Kitts and Nevis Saint Lucia Saint Pierre and Miquelon Saint Vincent and the Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Slovakia Slovenia Solomon Islands Somalia South Africa South Georgia and The South Sandwich Island Spain Sri Lanka Suriname Svalbard and Jan Mayen Islands Swaziland Sweden Switzerland Taiwan Tajikistan Tanzania United Republic of Thailand Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands Tuvalu Uganda Ukraine United Arab Emirates United Kingdom United States Minor Outlying Islands Uruguay Uzbekistan Vanuatu Venezuela Viet Nam Virgin Islands (British) Virgin Islands (U.S.) Wallis and Futuna Islands Western Sahara Yemen Zambia Zimbabwe
+*
+Add me to the list to receive dedicated product updates and general availability emails.
+By submitting this form, I understand Snowflake will process my personal information in accordance with its [Privacy Notice](http://www.snowflake.com/privacy-policy/). I may unsubscribe through [unsubscribe links](https://info.snowflake.com/2020-Snowflake-Preference-Center.html) at any time.  
+
+Subscribe Now
+Product
+  * [Platform](https://www.snowflake.com/en/product/platform/)
+  * [Snowflake Intelligence](https://www.snowflake.com/en/product/snowflake-intelligence/)
+  * [Data Engineering](https://www.snowflake.com/en/product/data-engineering/)
+  * [Analytics](https://www.snowflake.com/en/product/analytics/)
+  * [AI](https://www.snowflake.com/en/product/ai/)
+  * [Applications & Collaboration](https://www.snowflake.com/en/product/applications-and-collaboration/)
+  * [Pricing](https://www.snowflake.com/en/pricing-options/)
+
+
+Support
+  * [Support](https://www.snowflake.com/en/support/)
+  * [Priority Support](https://www.snowflake.com/en/legal/addenda/priority-support-services-description/)
+  * [Status](https://status.snowflake.com/)
+
+
+[Industries](https://www.snowflake.com/en/solutions/industries/)
+  * [Advertising, Media & Entertainment](https://www.snowflake.com/en/solutions/industries/advertising-media-entertainment/)
+  * [Financial Services](https://www.snowflake.com/en/solutions/industries/financial-services/)
+  * [Healthcare & Life Sciences](https://www.snowflake.com/en/solutions/industries/healthcare-and-life-sciences/)
+  * [Manufacturing](https://www.snowflake.com/en/solutions/industries/manufacturing/)
+  * [Public Sector](https://www.snowflake.com/en/solutions/industries/public-sector/)
+  * [Retail & Consumer Goods](https://www.snowflake.com/en/solutions/industries/retail-consumer-goods/)
+  * [Telecom](https://www.snowflake.com/en/solutions/industries/telecom/)
+  * [Technology](https://www.snowflake.com/en/solutions/industries/technology/)
+
+
+Company
+  * [About Snowflake](https://www.snowflake.com/en/company/overview/about-snowflake/)
+  * [Leadership & Board](https://www.snowflake.com/en/company/overview/leadership-and-board/)
+  * [Careers](https://careers.snowflake.com/us/en)
+  * [Investor Relations](https://investors.snowflake.com/overview/default.aspx)
+  * [Trust Center](https://trust.snowflake.com/)
+  * [Brand Guidelines](https://www.snowflake.com/brand-guidelines/)
+  * [Contact](https://www.snowflake.com/en/contact/)
+  * [Newsroom](https://www.snowflake.com/en/news/)
+  * [Environmental, Social & Governance](https://www.snowflake.com/en/company/overview/esg/)
+  * [Snowflake Ventures](https://www.snowflake.com/en/company/overview/snowflake-ventures/)
+  * [End Data Disparity](https://www.snowflake.com/en/company/overview/end-data-disparity/)
+  * [Snowflake Summit 26](https://www.snowflake.com/en/summit/)
+
+
+Learn
+  * [Resource Library](https://snowflake.com/en/resources/)
+  * [Live Demos](https://www.snowflake.com/en/webinars/demo/)
+  * [Fundamentals](https://www.snowflake.com/en/fundamentals/)
+  * [Training](https://www.snowflake.com/en/resources/learn/training/)
+  * [Certifications](https://www.snowflake.com/en/resources/learn/certifications/)
+  * [Snowflake University](https://learn.snowflake.com/en/)
+  * [Developer Guides](https://www.snowflake.com/en/developers/guides)
+  * [Documentation](https://docs.snowflake.com/)
+
+
+[![Snowflake logo](https://www.snowflake.com/content/experience-fragments/snowflake-site/language-masters/en/site/footer/master/_jcr_content/root/container_573483281_/container_112062425/flexible_column_cont/flexible_column_content_container_1/container/container/image.coreimg.svg/1747882370694/nav-icon-snowflake-bug.svg)](https://www.snowflake.com/en/)
+  * © 2026 Snowflake Inc. All Rights Reserved
+  * [Privacy Policy](https://www.snowflake.com/en/legal/privacy/privacy-policy/)
+  * [Site Terms](https://snowflake.com/en/legal/snowflake-site-terms/)
+  * [Communication Preferences](https://info.snowflake.com/Preference-center.html)
+  * Cookie Settings
+  * [Do Not Share My Personal Information](https://www.snowflake.com/en/legal/privacy/privacy-policy/#12)
+  * [Legal](https://www.snowflake.com/en/legal/)
+
+
+[](https://x.com/Snowflake "X \(Twitter\)")
+[](https://www.linkedin.com/company/3653845 "LinkedIn")
+[](https://www.facebook.com/snowflakedb/ "Facebook")
+[](https://www.youtube.com/user/snowflakecomputing "YouTube")
+* Private preview, † Public preview, ‡ Coming soon
+1As of July 31, 2025
+2As of July 31, 2025. Please see our [Q2FY26 earnings press release ](https://investors.snowflake.com/news/news-details/2025/Snowflake-Reports-Financial-Results-for-the-Second-Quarter-of-Fiscal-2026/default.aspx)for the definition and description of our total customer count.
+## UTILISATION DE COOKIES PAR SNOWFLAKE
+Nous utilisons des cookies pour améliorer votre expérience et analyser le trafic sur notre site, tel que décrit dans notre Déclaration relative aux cookies. En l’acceptant, vous donnez votre consentement à l’utilisation de cookies.[Déclaration relative aux cookies.](https://www.snowflake.com/avis-de-confidentialite-snowflake/declaration-relative-aux-cookies-de-snowflake/?lang=fr)
+Paramètres des cookies Tout refuser Autoriser tous les cookies
+![Logo de la société](https://cdn.cookielaw.org/logos/cb85e692-4053-4d0a-8dda-d24b5daa8b06/ff6c124b-1473-4861-9ca3-9eaf6debb37d/SNO-SnowflakeLogo_blue.png)
+## Centre de préférences de la confidentialité
+Demande de refus prise en compte
+## Centre de préférences de la confidentialité
+  * ### Votre confidentialité
+  * ### Cookies strictement nécessaires
+  * ### Cookies de performance
+  * ### Cookies de fonctionnalité
+  * ### Cookies pour une publicité ciblée
+
+
+#### Votre confidentialité
+Lorsque vous visitez un site web, celui-ci peut stocker ou récupérer des informations sur votre navigateur, principalement sous forme de cookies. Ces informations peuvent vous concerner, concerner vos préférences ou votre appareil, et sont principalement utilisées pour permettre au site de fonctionner comme vous l’attendez. Ces informations ne vous identifient généralement pas directement, mais peuvent vous offrir une expérience web plus personnalisée. Comme nous respectons votre droit à la vie privée, vous pouvez choisir de ne pas autoriser certains types de cookies. Cliquez sur les différents titres de catégories pour en savoir plus et modifier nos paramètres par défaut. Le blocage de certains types de cookies peut affecter votre expérience sur le site et les services que nous sommes en mesure d’offrir.   
+[Plus d’informations](https://cookiepedia.co.uk/giving-consent-to-cookies)
+#### Cookies strictement nécessaires
+Toujours actif
+Ces cookies sont nécessaires au fonctionnement du site Web et ne peuvent pas être désactivés dans nos systèmes. Ils sont généralement établis en tant que réponse à des actions que vous avez effectuées et qui constituent une demande de services, telles que la définition de vos préférences en matière de confidentialité, la connexion ou le remplissage de formulaires. Vous pouvez configurer votre navigateur afin de bloquer ou être informé de l'existence de ces cookies, mais certaines parties du site Web peuvent être affectées. Ces cookies ne stockent aucune information d’identification personnelle.
+Détails des cookies
+#### Cookies de performance
+Cookies de performance
+Ces cookies nous permettent de déterminer le nombre de visites et les sources du trafic, afin de mesurer et d’améliorer les performances de notre site Web. Ils nous aident également à identifier les pages les plus / moins visitées et d’évaluer comment les visiteurs naviguent sur le site Web. Toutes les informations collectées par ces cookies sont agrégées et donc anonymisées. Si vous n'acceptez pas ces cookies, nous ne serons pas informé de votre visite sur notre site.
+Détails des cookies
+#### Cookies de fonctionnalité
+Cookies de fonctionnalité
+Ces cookies permettent d’améliorer et de personnaliser les fonctionnalités du site Web. Ils peuvent être activés par nos équipes, ou par des tiers dont les services sont utilisés sur les pages de notre site Web. Si vous n'acceptez pas ces cookies, une partie ou la totalité de ces services risquent de ne pas fonctionner correctement.
+Détails des cookies
+#### Cookies pour une publicité ciblée
+Cookies pour une publicité ciblée
+Ces cookies peuvent être mis en place au sein de notre site Web par nos partenaires publicitaires. Ils peuvent être utilisés par ces sociétés pour établir un profil de vos intérêts et vous proposer des publicités pertinentes sur d'autres sites Web. Ils ne stockent pas directement des données personnelles, mais sont basés sur l'identification unique de votre navigateur et de votre appareil Internet. Si vous n'autorisez pas ces cookies, votre publicité sera moins ciblée.
+Détails des cookies
+Back Button
+### Liste des cookies
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Confirmer la sélection
+Tout autoriser
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/products/cookie-consent/)
