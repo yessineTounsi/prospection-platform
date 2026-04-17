@@ -1,0 +1,74 @@
+{
+  "url": "https://www.loom.fr",
+  "domain": "www.loom.fr",
+  "is_ecommerce": true,
+  "ecommerce_confidence": 93.5,
+  "ecommerce_signals": [
+    "authorize.net [cat:41]",
+    "Pattern by Etsy [cat:6]",
+    "Shop Pay [cat:41]",
+    "Shopify [cat:6]",
+    "pattern:add-to-cart",
+    "pattern:cart-url"
+  ],
+  "platform": [
+    "Pattern by Etsy",
+    "Shopify"
+  ],
+  "cms": [],
+  "frontend_framework": [],
+  "js_libraries": [
+    "jQuery",
+    "Select2"
+  ],
+  "css_framework": [],
+  "analytics": [
+    "Google Analytics",
+    "Hotjar"
+  ],
+  "tag_managers": [],
+  "advertising": [],
+  "crm_marketing": [
+    "Segment"
+  ],
+  "payment_gateways": [
+    "authorize.net",
+    "Shop Pay"
+  ],
+  "review_platform": [
+    "Judge.me"
+  ],
+  "live_chat": [],
+  "search_engines": [],
+  "shipping": [],
+  "cdn": [],
+  "hosting": [],
+  "server": [],
+  "caching": [],
+  "security": [
+    "hCaptcha",
+    "reCAPTCHA"
+  ],
+  "other": [],
+  "all_technologies": {
+    "authorize.net": "",
+    "Flarum": "",
+    "Google Analytics": "",
+    "Hotjar": "",
+    "hCaptcha": "",
+    "Judge.me": "",
+    "jQuery": ".",
+    "Maptalks": "",
+    "Pattern by Etsy": "",
+    "reCAPTCHA": "",
+    "Segment": "{\"accessToken\":\"2eea05e8de7fb24df742dd1a79532a67\",\"betas\":[\"rich-media-storefront-analytics\"],\"domain\":\"www.loom.fr\",\"predictiveSearch\":true,\"shopId\":13557899,\"locale\":\"fr\"}",
+    "Select2": "",
+    "Shop Pay": "",
+    "Shopify": "",
+    "PHP": "",
+    "MySQL": ""
+  },
+  "technologies_count": 16,
+  "scan_duration_ms": 7849.05,
+  "error": null
+}

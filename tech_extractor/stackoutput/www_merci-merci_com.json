@@ -1,0 +1,105 @@
+{
+  "url": "https://www.merci-merci.com",
+  "domain": "www.merci-merci.com",
+  "is_ecommerce": true,
+  "ecommerce_confidence": 81.0,
+  "ecommerce_signals": [
+    "authorize.net [cat:41]",
+    "LangShop [cat:100]",
+    "Shopify [cat:6]",
+    "pattern:add-to-cart",
+    "pattern:cart-url",
+    "pattern:free-shipping",
+    "pattern:stock"
+  ],
+  "platform": [
+    "Shopify"
+  ],
+  "cms": [],
+  "frontend_framework": [
+    "Mustache"
+  ],
+  "js_libraries": [
+    "jQuery",
+    "LazySizes",
+    "Select2",
+    "Slick"
+  ],
+  "css_framework": [],
+  "analytics": [
+    "Facebook Pixel",
+    "Google Analytics",
+    "Microsoft Clarity"
+  ],
+  "tag_managers": [],
+  "advertising": [
+    "Microsoft Advertising"
+  ],
+  "crm_marketing": [
+    "Klaviyo",
+    "Potions",
+    "Segment"
+  ],
+  "payment_gateways": [
+    "authorize.net"
+  ],
+  "review_platform": [],
+  "live_chat": [
+    "Zendesk"
+  ],
+  "search_engines": [
+    "Doofinder",
+    "Searchanise"
+  ],
+  "shipping": [],
+  "cdn": [
+    "cdnjs",
+    "Microsoft Ajax Content Delivery Network",
+    "Cloudflare"
+  ],
+  "hosting": [],
+  "server": [],
+  "caching": [],
+  "security": [
+    "hCaptcha",
+    "reCAPTCHA"
+  ],
+  "other": [
+    "LangShop",
+    "langify"
+  ],
+  "all_technologies": {
+    "authorize.net": "",
+    "cdnjs": "",
+    "Doofinder": "",
+    "Facebook Pixel": "2.9.298",
+    "Flarum": "",
+    "Google Analytics": "",
+    "hCaptcha": "",
+    "jQuery": "",
+    "Klaviyo": "",
+    "LangShop": "",
+    "LazySizes": "",
+    "langify": ".",
+    "Maptalks": "",
+    "Microsoft Advertising": "",
+    "Microsoft Ajax Content Delivery Network": "",
+    "Microsoft Clarity": "",
+    "Mustache": "",
+    "Potions": "",
+    "reCAPTCHA": "",
+    "Searchanise": "",
+    "Segment": "{\"accessToken\":\"d1665df8f4a0ffb8ffa953195abfa6b3\",\"betas\":[\"rich-media-storefront-analytics\"],\"domain\":\"merci-merci.com\",\"predictiveSearch\":true,\"shopId\":52874805443,\"locale\":\"fr\"}",
+    "Select2": "",
+    "Shopify": "",
+    "Slick": "",
+    "Typekit": "",
+    "Zendesk": "",
+    "Cloudflare": "",
+    "PHP": "",
+    "MySQL": ""
+  },
+  "technologies_count": 29,
+  "scan_duration_ms": 28763.23,
+  "error": null
+}

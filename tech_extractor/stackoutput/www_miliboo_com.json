@@ -1,0 +1,72 @@
+{
+  "url": "https://www.miliboo.com",
+  "domain": "www.miliboo.com",
+  "is_ecommerce": true,
+  "ecommerce_confidence": 15.8,
+  "ecommerce_signals": [
+    "Flow [cat:106]",
+    "pattern:free-shipping",
+    "pattern:stock"
+  ],
+  "platform": [],
+  "cms": [],
+  "frontend_framework": [],
+  "js_libraries": [
+    "jQuery",
+    "Tiny Slider"
+  ],
+  "css_framework": [
+    "Bootstrap"
+  ],
+  "analytics": [
+    "Facebook Pixel",
+    "Google Analytics"
+  ],
+  "tag_managers": [
+    "Google Tag Manager"
+  ],
+  "advertising": [
+    "Microsoft Advertising"
+  ],
+  "crm_marketing": [],
+  "payment_gateways": [],
+  "review_platform": [
+    "Trustpilot"
+  ],
+  "live_chat": [
+    "Crisp Live Chat"
+  ],
+  "search_engines": [],
+  "shipping": [],
+  "cdn": [
+    "cdnjs",
+    "jsDelivr",
+    "Cloudflare"
+  ],
+  "hosting": [],
+  "server": [],
+  "caching": [],
+  "security": [
+    "reCAPTCHA"
+  ],
+  "other": [],
+  "all_technologies": {
+    "Bootstrap": "5",
+    "Crisp Live Chat": "",
+    "cdnjs": "",
+    "Facebook Pixel": "",
+    "Flow": "",
+    "Google Analytics": "",
+    "Google Tag Manager": "",
+    "jQuery": "",
+    "jsDelivr": "",
+    "Microsoft Advertising": "",
+    "reCAPTCHA": "",
+    "Tiny Slider": "",
+    "Trustpilot": "",
+    "Cloudflare": ""
+  },
+  "technologies_count": 14,
+  "scan_duration_ms": 4377.67,
+  "error": null
+}

@@ -1,0 +1,83 @@
+{
+  "url": "https://www.cyrillus.fr",
+  "domain": "www.cyrillus.fr",
+  "is_ecommerce": true,
+  "ecommerce_confidence": 55.0,
+  "ecommerce_signals": [
+    "authorize.net [cat:41]",
+    "Shopify [cat:6]",
+    "pattern:cart-url",
+    "pattern:stock"
+  ],
+  "platform": [
+    "Shopify"
+  ],
+  "cms": [],
+  "frontend_framework": [],
+  "js_libraries": [
+    "jQuery",
+    "Select2"
+  ],
+  "css_framework": [],
+  "analytics": [
+    "Contentsquare",
+    "Kameleoon"
+  ],
+  "tag_managers": [
+    "Google Tag Manager"
+  ],
+  "advertising": [],
+  "crm_marketing": [
+    "Nosto",
+    "Segment"
+  ],
+  "payment_gateways": [
+    "authorize.net"
+  ],
+  "review_platform": [],
+  "live_chat": [
+    "iAdvize"
+  ],
+  "search_engines": [],
+  "shipping": [],
+  "cdn": [
+    "Amazon S3"
+  ],
+  "hosting": [
+    "Amazon Web Services"
+  ],
+  "server": [],
+  "caching": [],
+  "security": [
+    "Didomi",
+    "hCaptcha",
+    "Oxi Social Login",
+    "reCAPTCHA"
+  ],
+  "other": [],
+  "all_technologies": {
+    "Amazon S3": "",
+    "authorize.net": "",
+    "Contentsquare": "",
+    "Didomi": "",
+    "Flarum": "",
+    "Google Tag Manager": "",
+    "hCaptcha": "",
+    "iAdvize": "",
+    "jQuery": ".",
+    "Kameleoon": "",
+    "Maptalks": "",
+    "Nosto": "",
+    "Oxi Social Login": "",
+    "reCAPTCHA": "",
+    "Segment": "{\"accessToken\":\"a8e54d0308b4406e83486d3c9d346d80\",\"betas\":[\"rich-media-storefront-analytics\"],\"domain\":\"cyrillus.fr\",\"predictiveSearch\":true,\"shopId\":63982665985,\"locale\":\"fr\"}",
+    "Select2": "",
+    "Shopify": "",
+    "Amazon Web Services": "",
+    "PHP": "",
+    "MySQL": ""
+  },
+  "technologies_count": 20,
+  "scan_duration_ms": 6817.24,
+  "error": null
+}

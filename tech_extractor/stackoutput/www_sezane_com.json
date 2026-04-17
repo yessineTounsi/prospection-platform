@@ -1,0 +1,53 @@
+{
+  "url": "https://www.sezane.com",
+  "domain": "www.sezane.com",
+  "is_ecommerce": true,
+  "ecommerce_confidence": 24.0,
+  "ecommerce_signals": [
+    "Global-e [cat:106]",
+    "pattern:cart-url",
+    "pattern:stock"
+  ],
+  "platform": [],
+  "cms": [],
+  "frontend_framework": [],
+  "js_libraries": [
+    "basket.js"
+  ],
+  "css_framework": [],
+  "analytics": [],
+  "tag_managers": [
+    "Google Tag Manager"
+  ],
+  "advertising": [],
+  "crm_marketing": [
+    "Segment"
+  ],
+  "payment_gateways": [],
+  "review_platform": [],
+  "live_chat": [],
+  "search_engines": [],
+  "shipping": [],
+  "cdn": [],
+  "hosting": [],
+  "server": [],
+  "caching": [],
+  "security": [
+    "OneTrust"
+  ],
+  "other": [],
+  "all_technologies": {
+    "AccessiBe": "",
+    "basket.js": "",
+    "Flarum": "",
+    "Global-e": "",
+    "Google Tag Manager": "",
+    "OneTrust": "",
+    "Segment": "if (!window.segmentMethods ||",
+    "PHP": "",
+    "MySQL": ""
+  },
+  "technologies_count": 9,
+  "scan_duration_ms": 3597.55,
+  "error": null
+}

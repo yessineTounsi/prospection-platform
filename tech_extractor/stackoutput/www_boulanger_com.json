@@ -1,0 +1,101 @@
+{
+  "url": "https://www.boulanger.com",
+  "domain": "www.boulanger.com",
+  "is_ecommerce": true,
+  "ecommerce_confidence": 52.0,
+  "ecommerce_signals": [
+    "authorize.net [cat:41]",
+    "PayPal [cat:41]",
+    "pattern:add-to-cart",
+    "pattern:product-id",
+    "pattern:cart-url"
+  ],
+  "platform": [],
+  "cms": [
+    "Adobe Experience Manager"
+  ],
+  "frontend_framework": [
+    "Zone.js",
+    "Angular"
+  ],
+  "js_libraries": [
+    "Boomerang"
+  ],
+  "css_framework": [],
+  "analytics": [
+    "AB Tasty",
+    "Akamai mPulse",
+    "Contentsquare",
+    "Facebook Pixel",
+    "Google Analytics",
+    "Kameleoon",
+    "TikTok Pixel"
+  ],
+  "tag_managers": [
+    "Commanders Act TagCommander",
+    "Google Tag Manager"
+  ],
+  "advertising": [
+    "Microsoft Advertising",
+    "theTradeDesk"
+  ],
+  "crm_marketing": [
+    "Segment"
+  ],
+  "payment_gateways": [
+    "authorize.net",
+    "PayPal"
+  ],
+  "review_platform": [
+    "Bazaarvoice Reviews"
+  ],
+  "live_chat": [
+    "iAdvize"
+  ],
+  "search_engines": [],
+  "shipping": [],
+  "cdn": [
+    "jsDelivr"
+  ],
+  "hosting": [],
+  "server": [],
+  "caching": [],
+  "security": [
+    "Didomi"
+  ],
+  "other": [],
+  "all_technologies": {
+    "AB Tasty": "",
+    "Adobe Experience Manager": "",
+    "Akamai mPulse": "",
+    "authorize.net": "",
+    "Bazaarvoice Reviews": "",
+    "Boomerang": "",
+    "Caast.tv": "",
+    "Commanders Act TagCommander": "",
+    "Contentsquare": "",
+    "Didomi": "",
+    "Facebook Pixel": "2.9.298",
+    "Flarum": "",
+    "Google Analytics": "",
+    "Google Tag Manager": "",
+    "iAdvize": "",
+    "jsDelivr": "",
+    "Kameleoon": "// Note : feature flag",
+    "Maptalks": "",
+    "Microsoft Advertising": "",
+    "PayPal": "",
+    "Segment": "var G_CONFIG = {\"availablePaymentMethods\":[\"PO\",\"VO\",\"80\",\"72\",\"62\",\"82\",\"86a\",\"86b\",\"50a\",\"50b\",\"83\",\"91\",\"P1\",\"P2\"],\"enableCheckGiftCardsBalance\":true,\"donationEnabled\":true,\"walletEnabled\":true,\"availableProductServicesCategories\":[\"GARANTIE\",\"ASSURANCE\",\"INSTALLATION\",\"ESSENTIEL\",\"CONFORT\",\"SOLO\",\"FAMILLE\"],\"availableProductInstallationsCategories\":[\"B_DOM\",\"LFC\",\"INSTALLATION\"],\"maxDisplayedBundles\":2,\"typoSRIToken\":\"sha384-M3CDhzReLA1/n+3S8BTkuSyh+eYjPZV6VuKFqhRu8VUXXp4qlFID74ccZ6e1HK/E\",\"comparatorEnabled\":true,\"highlighterEnabled\":true,\"productComparatorEnabled\":false,\"enabledServicesPopin\":true,\"merchantIdBoulanger\":\"0000\",\"observabilityServerUrl\":\"https://www.boulanger.com/rum\",\"observabilityServiceVersion\":\"Copenhague\",\"observabilityEnvironment\":\"prod\",\"observabilityLogLevel\":\"error\",\"observabilityTransactionSampleRate\":\"0.05\",\"observabilityDisableInstrumentations\":[\"'page-load'\",\"'history'\",\" 'eventtarget'\",\" 'click'\"],\"paypalInContextEnabledApps\":true,\"paypalInContextEnabledWeb\":false,\"priceReferenceEnabled\":true,\"infinityQualireparEnabled\":false,\"qualireparExcludedPimsCodes\":[\"1236174\",\"1236176\"],\"productsVSREnabled\":true,\"lfcsupportsEnabled\":false,\"infinityResiliationEnabled\":true,\"infinityResiliationHomeLink\":\"https://www.assurancesboulanger.com/smbk-customer/boulanger/login\",\"infinityManagementHomeLink\":\"https://www.assurancesboulanger.com/smbk-customer/boulanger/login\",\"infinityModifyHomeLink\":\"https://www.boulanger.com/account/boulanger-infinity/subscribe\",\"infinityResiliationPhoneLink\":\"https://declaration.assurancesboulanger.com/smbk-customer/boulanger/login\",\"infinityManagementPhoneLink\":\"https://www.assurancesboulanger.com/smbk-customer/boulanger/login\",\"productReviewActive\":true,\"seoLimitNumberReviews\":10,\"analyticsSiteIdDesktop\":\"622743\",\"analyticsSiteIdMobile\":\"622763\",\"analyticsSiteIdWebview\":\"631670\",\"analyticsAppsflyerApikey\":\"7b005c86-2cc0-4d6c-aed8-da2b0b4d40b8\",\"facilyPayMock\":false,\"clientTrackingEnvrWork\":\"production\",\"cryptoExternalId\":\"/api/customer/customer/repository-v1\",\"clientVisibleFacets\":5,\"minPriceForInstalment\":100.0,\"maxPriceForInstalment\":3000.0,\"minPriceForPaypal4Instalments\":30.0,\"maxPriceForPaypal4Instalments\":2000.0,\"enablePushProductEarlyBirds\":true,\"enableProductCollections\":true,\"marketplaceCGVLink\":\"/evenement/cgv#conditions-generales-vente-partenaires\",\"digitalContentCGVLink\":\"\",\"boulangerCGVLink\":\"/evenement/cgv\",\"comparatorRecommendationsWidgetId\":\"68e686e34b32adeeb0281758\",\"accountNewProductRecommendationsWidgetId\":\"681a06a6dae75877d55ca022\",\"accountForYouRecommendationsWidgetId\":\"681a0745c128aa3eca1e23b8\",\"accountLastProductsSeenRecommendationsWidgetId\":\"681a082e17abbf6406c228f1\",\"accountCurrentOffersWidgetId\":\"682deaac2ddbb71c1d81e69a\",\"emptyCartRecommendationsWidgetId\":\"6177f66599b6dfd0a69d132a\",\"cartRecommendationsProduct1WidgetId\":\"697245595eb10dc7da2fc19f\",\"cartRecommendationsProduct2WidgetId\":\"69724575e45292109168a25d\",\"cartRecommendationsProduct3WidgetId\":\"6972458bafa44c9bafd28a22\",\"cartRecommendationsProduct4WidgetId\":\"6972459f5eb10dc7da2fc1ab\",\"cartRecommendationsProduct5WidgetId\":\"697245af9dac5dd7d4e42658\",\"popinRecommendationsWidgetIds\":\"{\\\"45\\\":\\\"6153386bc2cd4fae361e4faa\\\",\\\"48300\\\":\\\"61541015b70964288f67123b\\\",\\\"51720\\\":\\\"61541117bf5adcc7524a5e60\\\",\\\"48305\\\":\\\"615411dcd18b8ad73784b2fa\\\",\\\"52045\\\":\\\"61541260bf5adcc7524a5ef3\\\",\\\"20\\\":\\\"615412e9c2cd4fae361e5126\\\",\\\"5\\\":\\\"61541373b70964288f6712a9\\\",\\\"52140\\\":\\\"6154214bb4de596bdd34db08\\\",\\\"25\\\":\\\"6154220cbf5adcc7524a6ac0\\\",\\\"default\\\":\\\"615422b2c2cd4fae361e56c9\\\"}\",\"clientHomeDeliveryModesEnabled\":[\"LVB\",\"CLS\",\"CHR\",\"GEE\",\"GEL\",\"EXP\",\"STD\",\"SDS\",\"SDE\",\"EPP\"],\"deliveryTimeSlotsEnabledTypeD\":[\"19h-22h\"],\"deliveryTimeSlotsEnabledTypeS\":[\"8h-13h\",\"12h-18h\",\"8h-18h\"],\"deliveryTimeSlotsEnabledTypeR\":[\"7h-9h\",\"12h-14h\",\"17h-19h\",\"18h-20h\",\"19h-21h\",\"20h-22h\"],\"clientStoreDeliveryModesEnabled\":[\"REM\",\"DRV\"],\"clientPickupPointDeliveryModesEnabled\":[\"MDR\",\"CLR\",\"CHP\"],\"clientDematDeliveryModesEnabled\":[\"EPM\"],\"clientBccCallForDeliveryPlanningEnabled\":true,\"ecoResponsibilityEnabled\":true,\"ecoResponsibilityDeliveriesA\":[\"EPM\",\"REM\",\"DRV\"],\"ecoResponsibilityDeliveriesB\":[\"CLR\",\"MDR\",\"CHP\",\"CLS\",\"SDS\",\"STD\",\"EPP\"],\"ecoResponsibilityDeliveriesC\":[\"CHR\",\"SDE\",\"EXP\"],\"ecoResponsibilityDeliveriesD\":[\"LVB\",\"GEL\",\"GEE\",\"COU\",\"CRV\"],\"clientGeographyApiCitiesSearchEndpoint\":\"/cities/search\",\"clientGeographyApiCountriesListEndpoint\":\"/countries\",\"clientGeographyApiHostname\":\"/api/referential/geography-v3\",\"clientGeographyApiKey\":\"a329be3a-d13c-4ffb-954c-c07e7d910c7a\",\"clientGoogleMapApiHostname\":\"https://maps.googleapis.com/maps/api/js?v=3.18\",\"clientGoogleMapKey\":\"AIzaSyChgo9VRsFLciZye3M6eHTy8SpMF0G05po\",\"clientInvoiceApiHostname\":\"\",\"clientClubApiHostname\":\"/api/customer/loyalty-v2\",\"clientClubPublicApiKey\":\"9979febd-888e-4a58-8650-db51d21c7b0f\",\"clubPaidOfferPrice\":10,\"clubPaidOfferPriceNextYear\":\"14,99\",\"clubBirthdayGain\":6,\"clubPercentGainFreeOffer\":1.0,\"clubPercentGainPaidOffer\":2.0,\"clubIdSubscription\":\"000000000001185162\",\"clubPlusIdSubscription\":\"000000000001185163\",\"clubPlusIdRenewal\":\"000000000001185164\",\"clientOrchestrationApiHostname\":\"/api/sales/enrichedsales-v2/graphql\",\"clientMarketplacePublicApiHostname\":\"/api/exchange/internalmarketplace-v2\",\"clientMarketplacePublicApiKey\":\"018771fe-43bd-487a-af9f-050d0d0432d6\",\"clientMarketplaceEvaluationsLimit\":5,\"clientPickupPointKey\":\"8d057449-2c6d-4e9b-a669-fc2d3eb74b8b\",\"clientPaymentApiWebHostname\":\"https://api.boulanger.com/commerce/payment-v4\",\"clientPaymentApiKey\":\"c09dd53b-21d1-4f7f-b616-88e03c9e15c0\",\"clientPaymentPrivateApiWebHostname\":\"https://api.boulanger.com/commerce/payment-v4\",\"clientPaymentPrivateApiKey\":\"c09dd53b-21d1-4f7f-b616-88e03c9e15c0\",\"clientPaymentSimulationApiWebHostname\":\"https://api.boulanger.com/commerce/payment/simulation-v1\",\"clientPaymentSimulationApiKey\":\"9418ee49-e1df-4cdc-808a-52bd278577d4\",\"clientPaymentSimulationPrivateApiWebHostname\":\"https://api.boulanger.com/commerce/payment/simulation-v1\",\"clientPaymentSimulationPrivateApiKey\":\"e1804d75-66bd-4d38-bd6b-9feee3d975cc\",\"clientOneyApiHostname\":\"/partenaire/oney/simulation\",\"clientOneyMerchantGuid\":\"f64d15bf525246b08490e24d268c1db1\",\"facilypayX3Codes\":[\"W3178\"],\"facilypayX4Codes\":[\"W4177\"],\"facilypayX10Codes\":[\"BL10P\",\"BL10G\"],\"facilypayX12Codes\":[\"BL12P\",\"BL12G\"],\"purseCode\":\"P1\",\"purseX10Codes\":[\"P10XL\"],\"purseX20Codes\":[\"P20XL\"],\"clientPromiseApiHostname\":\"/api/commerce/promise-v2\",\"clientPromiseApiKey\":\"3290f727-e030-47c3-ac6f-15a5d46b856e\",\"clientReach5ApiHostname\":\"login.boulanger.com\",\"clientReach5ClientId\":\"QmofH7P73vSvG7H1lJqo\",\"clientSiteApiHostname\":\"/api/referential/site-v4\",\"clientSiteApiKey\":\"4a23d6b4-8bc3-49f3-b098-78c18901ebf0\",\"clientSiteApiSearchEndpoint\":\"/sites/search\",\"clientSiteApiGetSiteEndpoint\":\"/sites\",\"clientContextualizationPlatformRange\":3,\"clientWoosmapApiHostname\":\"https://api.woosmap.com/geolocation/position\",\"clientWoosmapApiKey\":\"woos-f23f9f47-22a5-3383-b5ed-d3338c04873f\",\"clientScene7ApiHostname\":\"https://boulanger.scene7.com/is/image/Boulanger\",\"clientContextualizationRange\":10,\"clientContextualizationSearchRange\":10,\"clientAddToCartWithPromiseREMEnabled\":true,\"clientAddToCartWithPromiseDRVEnabled\":true,\"clientLocalStockEnabled\":true,\"featureFlipping\":{\"enabledRUM\":false,\"forceVersionB\":true,\"enabledSafe\":true,\"serverSideProductTrackingEnabled\":false,\"clubRenewalCardActivated\":true,\"complementaryProductsEnabled\":true,\"upsellInfinityEnabled\":true,\"karapassInfinityEnabled\":true,\"enabledBuybackPopinWebview\":false,\"loyaltyOnProductPageEnabled\":true,\"loyaltyInPromiseEnabled\":true,\"paymentErrorsContextualized\":true,\"groupedDeliveryEnabled\":true,\"mkpAssessmentsEnabled\":true,\"ordersLightEnabled\":false,\"webviewTabBarEnabled\":true,\"analyticsDebugEnabled\":false,\"enabledServerSide\":true,\"webviewSmartBannerEnabled\":true,\"socialProviderEnabled\":[\"bconnect\",\"google\",\"paypal\"],\"redesignPictoInProductPage\":true,\"appleCareEnabled\":true,\"loyaltySimulationsCartEnabled\":true,\"promiseOnProductPage\":true,\"clubAdhesionActivated\":true,\"clubConsultationActivated\":true,\"clubResiliationActivated\":true,\"clubDeliveryActivated\":true,\"clubRenewalActivated\":true,\"promiseOnListPage\":true,\"gtmcontainerActivated\":true,\"comparatorEnabled\":true,\"highlighterEnabled\":true,\"productComparatorEnabled\":false,\"priceReferenceEnabled\":true,\"infinityQualireparEnabled\":false,\"productsVSREnabled\":true,\"lfcsupportsEnabled\":false,\"infinityResiliationEnabled\":true,\"enabledEquipmentRecovery\":true,\"cartDisablingStartDate\":\"\",\"cartDisablingEndDate\":\"\",\"microFrontendRoutes\":[\"/account/my-consents\",\"/account/my-company\",\"/account/personal-informations\",\"/account/forget-password\",\"/account/reset-password\",\"/account/my-payment-methods\",\"/account/email-validation\",\"/account/my-addresses\",\"/account/login-informations\"],\"rankingPersoEnabled\":false,\"sustainabilityIndexEnabled\":true,\"kaminoProductPageEnabled\":true,\"kaminoMastheadProductListEnabled\":true,\"kaminoSwordNativeTopProductListEnabled\":true,\"returnAndCancelOrderEnabled\":true,\"chatbotAIEnabled\":true,\"deliveryDateChosenEnabled\":true,\"didomiEnabled\":true,\"createProductAlertEnabled\":true,\"deliveryDateHomeChosenEnabled\":true,\"loyaltySimulationsProductPageEnabled\":true,\"loyaltySimulationsListPageEnabled\":false,\"accountMicroFrontendEnabled\":false,\"updateLvbShippingDateEnabled\":false,\"myPaymentMethodsPageEnabled\":true,\"abtastyActivated\":false,\"enabledEligibleServicesPopin\":true,\"buyBackEnabled\":true},\"clientSuggestApiKey\":\"f0a72290-ef9b-4aec-a722-90ef9b4aec7c\",\"clientSuggestApiHostname\":\"https://api.boulanger.com/searchengine/api-searchengine\",\"clientSuggestApiEndpoint\":\"/suggest\",\"clientSuggestDelay\":\"650\",\"clientSuggestMinLetters\":\"2\",\"clientSuggestLimitHistory\":\"3\",\"clientSuggestLimitPopular\":\"3\",\"clientSuggestLimitSuggestions\":\"9\",\"clientSuggestLimitBrands\":\"6\",\"clientSuggestLimitBrandsKeyword\":\"9\",\"clientSuggestLimitProducts\":\"6\",\"clientSuggestLimitUseful\":\"3\",\"suggestActived\":true,\"didomiVendorId\":\"algolia-H7PM7mDw\",\"enabledEquipmentRecovery\":true,\"clientProductReviewApiHostname\":\"/api/customer/social/review-v1\",\"clientProductReviewApiKey\":\"731924bd-33ef-4afa-aa32-f0b9721a7ed2\",\"infinitySubscriptionActive\":true,\"infinityContractActive\":true,\"clientInfinityAPIHostname\":\"/api/insurance/partners/exchange-v1\",\"paypalClientId\":\"Ae19qymJoQq2tYWltENeQ1eMuk-vXJSA4w1Qg69fCysdvYDYFegaTb107mMXA0chwXtwLYODCumOKskD\",\"merchantName\":\"Boulanger\",\"merchantId\":\"000000000208604\",\"cartDisablingStartDate\":\"\",\"cartDisablingEndDate\":\"\",\"clientEarlyBirdsApiHostname\":\"/api/outbound/earlybird/offer/merch/recommandations-v1\",\"clientEarlyBirdshApiKey\":\"c934fc1d-b070-4b9f-a34d-03f0110dc55a\",\"redirectUriMfa\":\"https://www.boulanger.com/account/auth/mfa\",\"cookieMfaValidity\":\"60\",\"differenceHoursForSlotDay\":7,\"insurancePartnersExchangeAPIHostname\":\"/api/insurance/partners/exchange-v1\",\"flagshipApiKey\":\"HveKnxASaASqgVcFGBnVwhRGvyCwZerhSpNavUac\",\"flagshipEnvId\":\"cvpmc789ha0002ae1pi0\",\"clientLoyaltySimulationApiHostname\":\"/api/customer/loyalty-simulation-v2\",\"clientLoyaltySimulationPublicApiKey\":\"4ea1783b-e4cf-49b3-a178-3be4cf89b3a6\",\"loyaltySimulationSiteId\":\"F999\",\"microFrontendRoutes\":[\"/account/my-consents\",\"/account/my-company\",\"/account/personal-informations\",\"/account/forget-password\",\"/account/reset-password\",\"/account/my-payment-methods\",\"/account/email-validation\",\"/account/my-addresses\",\"/account/login-informations\"],\"bannerAppsflyerApikey\":\"a425225d-b245-4956-b0da-6a04417c9c76\",\"chatboxHashVersion\":\"a7518c84d7010d9b1922\",\"merchantIdBoulanger2ndLife\":\"2334\",\"rankingPersoEnabled\":false,\"sustainabilityIndexEnabled\":true,\"kaminoProductPageEnabled\":true,\"kaminoMastheadProductListEnabled\":true,\"kaminoSwordNativeTopProductListEnabled\":true,\"giftCardMerchandiseGroup\":\"09101025\",\"websiteIdForIAdvize\":7670,\"createProductAlertEnabled\":true,\"loyaltySimulationsProductPageEnabled\":true,\"loyaltySimulationsListPageEnabled\":false,\"iosappID\":\"401920975\",\"androidAppID\":\"fr.boulanger.application\",\"accountMicroFrontendEnabled\":false,\"updateLvbShippingDateEnabled\":false,\"myPaymentMethodsPageEnabled\":true,\"clientAdyenSecureFieldsKey\":\"live_TQZ24GJ6MJETRMKDCG3B2EBBUIMHH542\",\"clientAdyenEnvironment\":\"live\",\"clientEstimationApiHostname\":\"/api/commerce/estimation-v1\",\"clientEstimationApiKey\":\"6ff2f147-db28-4c56-9a7e-0b8a1ad93853\",\"clientBffHostname\":\"/api/exchange/web/bcomtec/bff-frontomc-v1\",\"clientBffApiKey\":\"43f208ae-e096-4b0a-83e8-945fb8c97876\",\"clientBffAnalyticsHostname\":\"/api/exchange/web/bcomtec/bff-frontomc-analytics-v1\",\"clientBffAnalyticsApiKey\":\"c215a4e2-1360-4739-95a4-e2136077390b\",\"clientBffAuxiliaryHostname\":\"/api/exchange/web/bcomtec/bff-frontomc-auxiliary\",\"clientBffAuxiliaryApiKey\":\"\",\"promoCodeEnable\":true,\"clientCartApiWebHostname\":\"https://api.boulanger.com/commerce/web/cart-v2\",\"clientCartApiWebKey\":\"3f821ef6-d364-4471-b6b3-900aa53857fa\",\"clientCartApiWebViewKey\":\"c4be2462-fb95-45ba-af5b-5798921c9ed1\",\"warrantyEnable\":true,\"newsLetterPublicApiUrl\":\"/api/customer/subscribe-v2/newslettersSubscription/optin\",\"unsubscribePublicApiUrl\":\"/api/customer/subscribe-v2/newslettersSubscription/optout\",\"newsLetterApiKey\":\"31403883-d702-4e3c-97a2-ea5f717cb616\",\"clientMerchApiHostname\":\"/api/offer/merch-v3\",\"clientMerchApiKey\":\"4fc55fe4-ec2b-4d53-8c72-4ecd22e1d34a\",\"acceptedStickersCodes\":[\"JU\",\"OF\",\"OB\",\"FI\",\"PR\"],\"eligibleSegmentsPopinServices\":[\"07709510\",\"04109536\"],\"eligibleServiceInstallation\":\"000000000001231037\",\"acceptedCategoriesIdsEligibleServicesPopin\":\"{\\\"fridge\\\": \\\"4455\\\",\\\"freezer\\\":\\\"9930\\\",\\\"washingMachine\\\":\\\"46360\\\",\\\"tumbleDryer\\\": \\\"44130\\\", \\\"dishwasher\\\":\\\"4505\\\",\\\"tv\\\":\\\"19930\\\", \\\"barbecue\\\": \\\"54365\\\", \\\"plancha\\\": \\\"51575\\\", \\\"videoProjector\\\": \\\"7855\\\"}\",\"cartRecommendationsWidgetId\":\"6154234cb70964288f671d6e\",\"createAlertRecommendationsWidgetId\":\"67dc268c553ed32c00f8ef94\",\"orderConfirmationRecommendationsWidgetId\":\"63e50f500bc13a035f39f2dc\",\"accountHomeRecommendationsWidgetId\":\"63e50fb72fdb894087550f12\",\"accountBestSellersRecommendationsWidgetId\":\"681a05eec128aa3eca1e22d9\",\"facilypayCode\":\"82\"};",
+    "TikTok Pixel": "",
+    "theTradeDesk": "",
+    "Websocket": "",
+    "Zone.js": "",
+    "Java": "",
+    "PHP": "",
+    "MySQL": "",
+    "Angular": ""
+  },
+  "technologies_count": 29,
+  "scan_duration_ms": 20178.68,
+  "error": null
+}
